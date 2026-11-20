@@ -1,0 +1,17 @@
+calibration,transfer,false_alert_budget,gain_points
+target_disjoint,BASHLITE to Mirai,0.0001,7.619047619047626
+target_disjoint,BASHLITE to Mirai,0.0003,7.619047619047626
+target_disjoint,BASHLITE to Mirai,0.001,7.619047619047626
+target_disjoint,BASHLITE to Mirai,0.003,5.714285714285716
+target_disjoint,Mirai to BASHLITE,0.0001,-2.2222222222222254
+target_disjoint,Mirai to BASHLITE,0.0003,-2.2222222222222254
+target_disjoint,Mirai to BASHLITE,0.001,1.4814814814814725
+target_disjoint,Mirai to BASHLITE,0.003,8.888888888888902
+source_heldout,BASHLITE to Mirai,0.0001,8.571428571428575
+source_heldout,BASHLITE to Mirai,0.0003,0.0
+source_heldout,BASHLITE to Mirai,0.001,0.0
+source_heldout,BASHLITE to Mirai,0.003,0.0
+source_heldout,Mirai to BASHLITE,0.0001,5.925925925925924
+source_heldout,Mirai to BASHLITE,0.0003,2.9629629629629672
+source_heldout,Mirai to BASHLITE,0.001,21.48148148148149
+source_heldout,Mirai to BASHLITE,0.003,14.074074074074073

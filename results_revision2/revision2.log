@@ -1,0 +1,345 @@
+22:07:58    sampled Danmini_Doorbell: 52000 rows
+22:08:01    sampled Ecobee_Thermostat: 52000 rows
+22:08:03    sampled Ennio_Doorbell: 32000 rows
+22:08:07    sampled Philips_B120N10_Baby_Monitor: 52000 rows
+22:08:10    sampled Provision_PT_737E_Security_Camera: 52000 rows
+22:08:13    sampled Provision_PT_838_Security_Camera: 52000 rows
+22:08:14    sampled Samsung_SNH_1011_N_Webcam: 32000 rows
+22:08:17    sampled SimpleHome_XCS7_1002_WHT_Security_Camera: 52000 rows
+22:08:21    sampled SimpleHome_XCS7_1003_WHT_Security_Camera: 52000 rows
+22:08:21  stage sample: sample 428000 rows, 9 devices
+22:08:21  stage sample DONE
+22:09:01  stage hard: sample 428000 rows, 9 devices
+22:09:10  [hard] s0 gafgyt->mirai Danmini_Doorbell (9s)
+22:09:24  [hard] s0 gafgyt->mirai Ecobee_Thermostat (23s)
+22:09:35  [hard] s0 gafgyt->mirai Philips_B120N10_Baby_Monitor (34s)
+22:09:46  [hard] s0 gafgyt->mirai Provision_PT_737E_Security_Camera (45s)
+22:09:57  [hard] s0 gafgyt->mirai Provision_PT_838_Security_Camera (56s)
+22:10:06  [hard] s0 gafgyt->mirai SimpleHome_XCS7_1002_WHT_Security_Camera (66s)
+22:10:16  [hard] s0 gafgyt->mirai SimpleHome_XCS7_1003_WHT_Security_Camera (76s)
+22:10:28  [hard] s1 gafgyt->mirai Danmini_Doorbell (87s)
+22:10:38  [hard] s1 gafgyt->mirai Ecobee_Thermostat (97s)
+22:10:49  [hard] s1 gafgyt->mirai Philips_B120N10_Baby_Monitor (109s)
+22:10:59  [hard] s1 gafgyt->mirai Provision_PT_737E_Security_Camera (118s)
+22:11:08  [hard] s1 gafgyt->mirai Provision_PT_838_Security_Camera (127s)
+22:11:17  [hard] s1 gafgyt->mirai SimpleHome_XCS7_1002_WHT_Security_Camera (136s)
+22:11:26  [hard] s1 gafgyt->mirai SimpleHome_XCS7_1003_WHT_Security_Camera (145s)
+22:11:36  [hard] s2 gafgyt->mirai Danmini_Doorbell (155s)
+22:11:45  [hard] s2 gafgyt->mirai Ecobee_Thermostat (164s)
+22:11:55  [hard] s2 gafgyt->mirai Philips_B120N10_Baby_Monitor (174s)
+22:12:04  [hard] s2 gafgyt->mirai Provision_PT_737E_Security_Camera (183s)
+22:12:11  [hard] s2 gafgyt->mirai Provision_PT_838_Security_Camera (190s)
+22:12:19  [hard] s2 gafgyt->mirai SimpleHome_XCS7_1002_WHT_Security_Camera (198s)
+22:12:26  [hard] s2 gafgyt->mirai SimpleHome_XCS7_1003_WHT_Security_Camera (206s)
+22:12:35  [hard] s3 gafgyt->mirai Danmini_Doorbell (215s)
+22:12:43  [hard] s3 gafgyt->mirai Ecobee_Thermostat (223s)
+22:12:53  [hard] s3 gafgyt->mirai Philips_B120N10_Baby_Monitor (233s)
+22:13:02  [hard] s3 gafgyt->mirai Provision_PT_737E_Security_Camera (241s)
+22:13:11  [hard] s3 gafgyt->mirai Provision_PT_838_Security_Camera (250s)
+22:13:20  [hard] s3 gafgyt->mirai SimpleHome_XCS7_1002_WHT_Security_Camera (259s)
+22:13:29  [hard] s3 gafgyt->mirai SimpleHome_XCS7_1003_WHT_Security_Camera (268s)
+22:13:37  [hard] s4 gafgyt->mirai Danmini_Doorbell (276s)
+22:13:46  [hard] s4 gafgyt->mirai Ecobee_Thermostat (286s)
+22:13:55  [hard] s4 gafgyt->mirai Philips_B120N10_Baby_Monitor (295s)
+22:14:04  [hard] s4 gafgyt->mirai Provision_PT_737E_Security_Camera (303s)
+22:14:13  [hard] s4 gafgyt->mirai Provision_PT_838_Security_Camera (312s)
+22:14:23  [hard] s4 gafgyt->mirai SimpleHome_XCS7_1002_WHT_Security_Camera (322s)
+22:14:33  [hard] s4 gafgyt->mirai SimpleHome_XCS7_1003_WHT_Security_Camera (332s)
+22:14:42  [hard] s5 gafgyt->mirai Danmini_Doorbell (341s)
+22:14:52  [hard] s5 gafgyt->mirai Ecobee_Thermostat (351s)
+22:15:01  [hard] s5 gafgyt->mirai Philips_B120N10_Baby_Monitor (360s)
+22:15:09  [hard] s5 gafgyt->mirai Provision_PT_737E_Security_Camera (369s)
+22:15:19  [hard] s5 gafgyt->mirai Provision_PT_838_Security_Camera (378s)
+22:15:28  [hard] s5 gafgyt->mirai SimpleHome_XCS7_1002_WHT_Security_Camera (388s)
+22:15:36  [hard] s5 gafgyt->mirai SimpleHome_XCS7_1003_WHT_Security_Camera (396s)
+22:15:45  [hard] s6 gafgyt->mirai Danmini_Doorbell (404s)
+22:15:55  [hard] s6 gafgyt->mirai Ecobee_Thermostat (414s)
+22:16:04  [hard] s6 gafgyt->mirai Philips_B120N10_Baby_Monitor (424s)
+22:16:10  [hard] s6 gafgyt->mirai Provision_PT_737E_Security_Camera (430s)
+22:16:19  [hard] s6 gafgyt->mirai Provision_PT_838_Security_Camera (438s)
+22:16:27  [hard] s6 gafgyt->mirai SimpleHome_XCS7_1002_WHT_Security_Camera (446s)
+22:16:36  [hard] s6 gafgyt->mirai SimpleHome_XCS7_1003_WHT_Security_Camera (455s)
+22:16:44  [hard] s7 gafgyt->mirai Danmini_Doorbell (463s)
+22:16:52  [hard] s7 gafgyt->mirai Ecobee_Thermostat (471s)
+22:16:59  [hard] s7 gafgyt->mirai Philips_B120N10_Baby_Monitor (479s)
+22:17:07  [hard] s7 gafgyt->mirai Provision_PT_737E_Security_Camera (486s)
+22:17:14  [hard] s7 gafgyt->mirai Provision_PT_838_Security_Camera (494s)
+22:17:23  [hard] s7 gafgyt->mirai SimpleHome_XCS7_1002_WHT_Security_Camera (502s)
+22:17:31  [hard] s7 gafgyt->mirai SimpleHome_XCS7_1003_WHT_Security_Camera (511s)
+22:17:40  [hard] s8 gafgyt->mirai Danmini_Doorbell (519s)
+22:17:49  [hard] s8 gafgyt->mirai Ecobee_Thermostat (528s)
+22:17:57  [hard] s8 gafgyt->mirai Philips_B120N10_Baby_Monitor (537s)
+22:18:06  [hard] s8 gafgyt->mirai Provision_PT_737E_Security_Camera (545s)
+22:18:15  [hard] s8 gafgyt->mirai Provision_PT_838_Security_Camera (554s)
+22:23:57  [hard] s8 gafgyt->mirai SimpleHome_XCS7_1002_WHT_Security_Camera (896s)
+22:24:07  [hard] s8 gafgyt->mirai SimpleHome_XCS7_1003_WHT_Security_Camera (906s)
+22:24:18  [hard] s9 gafgyt->mirai Danmini_Doorbell (918s)
+22:24:29  [hard] s9 gafgyt->mirai Ecobee_Thermostat (928s)
+22:24:38  [hard] s9 gafgyt->mirai Philips_B120N10_Baby_Monitor (937s)
+22:24:49  [hard] s9 gafgyt->mirai Provision_PT_737E_Security_Camera (949s)
+22:25:00  [hard] s9 gafgyt->mirai Provision_PT_838_Security_Camera (959s)
+22:25:08  [hard] s9 gafgyt->mirai SimpleHome_XCS7_1002_WHT_Security_Camera (967s)
+22:25:17  [hard] s9 gafgyt->mirai SimpleHome_XCS7_1003_WHT_Security_Camera (976s)
+22:25:26  [hard] s10 gafgyt->mirai Danmini_Doorbell (985s)
+22:25:35  [hard] s10 gafgyt->mirai Ecobee_Thermostat (994s)
+22:25:42  [hard] s10 gafgyt->mirai Philips_B120N10_Baby_Monitor (1002s)
+22:25:49  [hard] s10 gafgyt->mirai Provision_PT_737E_Security_Camera (1009s)
+22:25:57  [hard] s10 gafgyt->mirai Provision_PT_838_Security_Camera (1016s)
+22:26:06  [hard] s10 gafgyt->mirai SimpleHome_XCS7_1002_WHT_Security_Camera (1025s)
+22:26:14  [hard] s10 gafgyt->mirai SimpleHome_XCS7_1003_WHT_Security_Camera (1033s)
+22:26:22  [hard] s11 gafgyt->mirai Danmini_Doorbell (1041s)
+22:26:31  [hard] s11 gafgyt->mirai Ecobee_Thermostat (1050s)
+22:26:40  [hard] s11 gafgyt->mirai Philips_B120N10_Baby_Monitor (1060s)
+22:26:46  [hard] s11 gafgyt->mirai Provision_PT_737E_Security_Camera (1066s)
+22:26:54  [hard] s11 gafgyt->mirai Provision_PT_838_Security_Camera (1073s)
+22:27:01  [hard] s11 gafgyt->mirai SimpleHome_XCS7_1002_WHT_Security_Camera (1081s)
+22:27:10  [hard] s11 gafgyt->mirai SimpleHome_XCS7_1003_WHT_Security_Camera (1089s)
+22:27:16  [hard] s0 mirai->gafgyt Danmini_Doorbell (1096s)
+22:27:25  [hard] s0 mirai->gafgyt Ecobee_Thermostat (1105s)
+22:27:33  [hard] s0 mirai->gafgyt Ennio_Doorbell (1112s)
+22:27:39  [hard] s0 mirai->gafgyt Philips_B120N10_Baby_Monitor (1119s)
+22:27:45  [hard] s0 mirai->gafgyt Provision_PT_737E_Security_Camera (1124s)
+22:27:52  [hard] s0 mirai->gafgyt Provision_PT_838_Security_Camera (1131s)
+22:27:58  [hard] s0 mirai->gafgyt Samsung_SNH_1011_N_Webcam (1138s)
+22:28:05  [hard] s0 mirai->gafgyt SimpleHome_XCS7_1002_WHT_Security_Camera (1144s)
+22:28:12  [hard] s0 mirai->gafgyt SimpleHome_XCS7_1003_WHT_Security_Camera (1151s)
+22:28:18  [hard] s1 mirai->gafgyt Danmini_Doorbell (1158s)
+22:28:24  [hard] s1 mirai->gafgyt Ecobee_Thermostat (1164s)
+22:28:31  [hard] s1 mirai->gafgyt Ennio_Doorbell (1170s)
+22:28:38  [hard] s1 mirai->gafgyt Philips_B120N10_Baby_Monitor (1177s)
+22:28:44  [hard] s1 mirai->gafgyt Provision_PT_737E_Security_Camera (1183s)
+22:28:50  [hard] s1 mirai->gafgyt Provision_PT_838_Security_Camera (1190s)
+22:28:57  [hard] s1 mirai->gafgyt Samsung_SNH_1011_N_Webcam (1196s)
+22:29:03  [hard] s1 mirai->gafgyt SimpleHome_XCS7_1002_WHT_Security_Camera (1202s)
+22:29:09  [hard] s1 mirai->gafgyt SimpleHome_XCS7_1003_WHT_Security_Camera (1209s)
+22:29:16  [hard] s2 mirai->gafgyt Danmini_Doorbell (1216s)
+22:29:23  [hard] s2 mirai->gafgyt Ecobee_Thermostat (1222s)
+22:29:30  [hard] s2 mirai->gafgyt Ennio_Doorbell (1229s)
+22:29:35  [hard] s2 mirai->gafgyt Philips_B120N10_Baby_Monitor (1235s)
+22:29:41  [hard] s2 mirai->gafgyt Provision_PT_737E_Security_Camera (1241s)
+22:29:48  [hard] s2 mirai->gafgyt Provision_PT_838_Security_Camera (1247s)
+22:29:54  [hard] s2 mirai->gafgyt Samsung_SNH_1011_N_Webcam (1254s)
+22:30:01  [hard] s2 mirai->gafgyt SimpleHome_XCS7_1002_WHT_Security_Camera (1260s)
+22:30:05  [hard] s2 mirai->gafgyt SimpleHome_XCS7_1003_WHT_Security_Camera (1265s)
+22:30:05  stage hard DONE
+22:30:07  stage standard: sample 428000 rows, 9 devices
+22:30:17  [std] s0 leave-one-device-out Danmini_Doorbell done
+22:30:27  [std] s0 leave-one-device-out Ecobee_Thermostat done
+22:30:38  [std] s0 leave-one-device-out Ennio_Doorbell done
+22:30:54  [std] s0 leave-one-device-out Philips_B120N10_Baby_Monitor done
+22:31:12  [std] s0 leave-one-device-out Provision_PT_737E_Security_Camera done
+22:31:30  [std] s0 leave-one-device-out Provision_PT_838_Security_Camera done
+22:31:48  [std] s0 leave-one-device-out Samsung_SNH_1011_N_Webcam done
+22:32:08  [std] s0 leave-one-device-out SimpleHome_XCS7_1002_WHT_Security_Camera done
+22:32:30  [std] s0 leave-one-device-out SimpleHome_XCS7_1003_WHT_Security_Camera done
+22:32:44  [std] s0 random split none done
+22:33:13  stage standard: sample 428000 rows, 9 devices
+22:33:31  [std] s0 leave-one-device-out Danmini_Doorbell done
+22:33:55  [std] s0 leave-one-device-out Ecobee_Thermostat done
+22:34:22  [std] s0 leave-one-device-out Ennio_Doorbell done
+22:34:51  [std] s0 leave-one-device-out Philips_B120N10_Baby_Monitor done
+22:35:19  [std] s0 leave-one-device-out Provision_PT_737E_Security_Camera done
+22:35:51  [std] s0 leave-one-device-out Provision_PT_838_Security_Camera done
+22:36:20  [std] s0 leave-one-device-out Samsung_SNH_1011_N_Webcam done
+22:36:41  [replicate] s0 gafgyt->mirai (194s)
+22:36:48  [std] s0 leave-one-device-out SimpleHome_XCS7_1002_WHT_Security_Camera done
+22:37:17  [std] s0 leave-one-device-out SimpleHome_XCS7_1003_WHT_Security_Camera done
+22:37:41  [std] s0 random split none done
+22:38:08  [std] s0 time-ordered split none done
+22:38:37  [std] s1 leave-one-device-out Danmini_Doorbell done
+22:39:06  [std] s1 leave-one-device-out Ecobee_Thermostat done
+22:39:36  [std] s1 leave-one-device-out Ennio_Doorbell done
+22:39:47  [replicate] s0 mirai->gafgyt (380s)
+22:40:06  [std] s1 leave-one-device-out Philips_B120N10_Baby_Monitor done
+22:40:35  [std] s1 leave-one-device-out Provision_PT_737E_Security_Camera done
+22:41:04  [std] s1 leave-one-device-out Provision_PT_838_Security_Camera done
+22:41:33  [std] s1 leave-one-device-out Samsung_SNH_1011_N_Webcam done
+22:42:01  [std] s1 leave-one-device-out SimpleHome_XCS7_1002_WHT_Security_Camera done
+22:42:30  [std] s1 leave-one-device-out SimpleHome_XCS7_1003_WHT_Security_Camera done
+22:42:44  [replicate] s1 gafgyt->mirai (557s)
+22:42:56  [std] s1 random split none done
+23:05:49  [std] s1 time-ordered split none done
+23:06:18  [std] s2 leave-one-device-out Danmini_Doorbell done
+23:06:46  [std] s2 leave-one-device-out Ecobee_Thermostat done
+23:06:58  [std] s2 leave-one-device-out Ennio_Doorbell done
+23:07:10  [std] s2 leave-one-device-out Philips_B120N10_Baby_Monitor done
+23:07:22  [std] s2 leave-one-device-out Provision_PT_737E_Security_Camera done
+23:07:35  [std] s2 leave-one-device-out Provision_PT_838_Security_Camera done
+23:07:46  [std] s2 leave-one-device-out Samsung_SNH_1011_N_Webcam done
+23:07:58  [std] s2 leave-one-device-out SimpleHome_XCS7_1002_WHT_Security_Camera done
+23:08:12  [std] s2 leave-one-device-out SimpleHome_XCS7_1003_WHT_Security_Camera done
+23:08:22  [std] s2 random split none done
+23:08:31  [std] s2 time-ordered split none done
+23:08:31  stage standard DONE
+23:08:33  stage norm: sample 428000 rows, 9 devices
+23:08:42  [norm] s0 gafgyt->mirai Danmini_Doorbell (9s)
+23:08:56  [norm] s0 gafgyt->mirai Ecobee_Thermostat (23s)
+23:09:07  [norm] s0 gafgyt->mirai Philips_B120N10_Baby_Monitor (34s)
+23:09:33  [norm] s0 gafgyt->mirai Provision_PT_737E_Security_Camera (60s)
+23:09:43  [norm] s0 gafgyt->mirai Provision_PT_838_Security_Camera (70s)
+23:09:51  [norm] s0 gafgyt->mirai SimpleHome_XCS7_1002_WHT_Security_Camera (78s)
+23:10:00  [norm] s0 gafgyt->mirai SimpleHome_XCS7_1003_WHT_Security_Camera (87s)
+23:10:07  [norm] s1 gafgyt->mirai Danmini_Doorbell (94s)
+23:10:13  [norm] s1 gafgyt->mirai Ecobee_Thermostat (101s)
+23:10:22  [norm] s1 gafgyt->mirai Philips_B120N10_Baby_Monitor (110s)
+23:10:30  [norm] s1 gafgyt->mirai Provision_PT_737E_Security_Camera (117s)
+23:10:37  [norm] s1 gafgyt->mirai Provision_PT_838_Security_Camera (124s)
+23:10:44  [norm] s1 gafgyt->mirai SimpleHome_XCS7_1002_WHT_Security_Camera (131s)
+23:10:52  [norm] s1 gafgyt->mirai SimpleHome_XCS7_1003_WHT_Security_Camera (139s)
+23:11:00  [norm] s2 gafgyt->mirai Danmini_Doorbell (147s)
+23:11:09  [norm] s2 gafgyt->mirai Ecobee_Thermostat (157s)
+23:11:18  [norm] s2 gafgyt->mirai Philips_B120N10_Baby_Monitor (165s)
+23:11:26  [norm] s2 gafgyt->mirai Provision_PT_737E_Security_Camera (173s)
+23:11:36  [norm] s2 gafgyt->mirai Provision_PT_838_Security_Camera (184s)
+23:11:45  [norm] s2 gafgyt->mirai SimpleHome_XCS7_1002_WHT_Security_Camera (193s)
+23:12:06  [norm] s2 gafgyt->mirai SimpleHome_XCS7_1003_WHT_Security_Camera (213s)
+23:12:14  [norm] s0 mirai->gafgyt Danmini_Doorbell (221s)
+23:12:22  [norm] s0 mirai->gafgyt Ecobee_Thermostat (230s)
+23:12:32  [norm] s0 mirai->gafgyt Ennio_Doorbell (239s)
+23:12:40  [norm] s0 mirai->gafgyt Philips_B120N10_Baby_Monitor (248s)
+23:12:50  [norm] s0 mirai->gafgyt Provision_PT_737E_Security_Camera (257s)
+23:12:57  [norm] s0 mirai->gafgyt Provision_PT_838_Security_Camera (264s)
+23:13:04  [norm] s0 mirai->gafgyt Samsung_SNH_1011_N_Webcam (271s)
+23:13:11  [norm] s0 mirai->gafgyt SimpleHome_XCS7_1002_WHT_Security_Camera (278s)
+23:13:17  [norm] s0 mirai->gafgyt SimpleHome_XCS7_1003_WHT_Security_Camera (284s)
+23:13:23  [norm] s1 mirai->gafgyt Danmini_Doorbell (291s)
+23:13:30  [norm] s1 mirai->gafgyt Ecobee_Thermostat (297s)
+23:13:37  [norm] s1 mirai->gafgyt Ennio_Doorbell (304s)
+23:13:44  [norm] s1 mirai->gafgyt Philips_B120N10_Baby_Monitor (312s)
+23:13:51  [norm] s1 mirai->gafgyt Provision_PT_737E_Security_Camera (319s)
+23:13:58  [norm] s1 mirai->gafgyt Provision_PT_838_Security_Camera (325s)
+23:14:04  [norm] s1 mirai->gafgyt Samsung_SNH_1011_N_Webcam (332s)
+23:14:11  [norm] s1 mirai->gafgyt SimpleHome_XCS7_1002_WHT_Security_Camera (339s)
+23:14:18  [norm] s1 mirai->gafgyt SimpleHome_XCS7_1003_WHT_Security_Camera (346s)
+23:14:25  [norm] s2 mirai->gafgyt Danmini_Doorbell (353s)
+23:14:32  [norm] s2 mirai->gafgyt Ecobee_Thermostat (360s)
+23:14:40  [norm] s2 mirai->gafgyt Ennio_Doorbell (367s)
+23:14:46  [norm] s2 mirai->gafgyt Philips_B120N10_Baby_Monitor (374s)
+23:14:53  [norm] s2 mirai->gafgyt Provision_PT_737E_Security_Camera (381s)
+23:14:59  [norm] s2 mirai->gafgyt Provision_PT_838_Security_Camera (387s)
+23:15:06  [norm] s2 mirai->gafgyt Samsung_SNH_1011_N_Webcam (393s)
+23:15:12  [norm] s2 mirai->gafgyt SimpleHome_XCS7_1002_WHT_Security_Camera (400s)
+23:15:19  [norm] s2 mirai->gafgyt SimpleHome_XCS7_1003_WHT_Security_Camera (406s)
+23:15:19  stage norm DONE
+23:15:20  stage ae: sample 428000 rows, 9 devices
+23:15:43  [ae] s0 benign->None Danmini_Doorbell (23s)
+23:16:06  [ae] s0 benign->None Ecobee_Thermostat (46s)
+23:16:29  [ae] s0 benign->None Ennio_Doorbell (69s)
+23:16:51  [ae] s0 benign->None Philips_B120N10_Baby_Monitor (90s)
+23:17:15  [ae] s0 benign->None Provision_PT_737E_Security_Camera (115s)
+23:17:36  [ae] s0 benign->None Provision_PT_838_Security_Camera (136s)
+23:17:56  [ae] s0 benign->None Samsung_SNH_1011_N_Webcam (155s)
+23:18:15  [ae] s0 benign->None SimpleHome_XCS7_1002_WHT_Security_Camera (175s)
+23:18:39  [ae] s0 benign->None SimpleHome_XCS7_1003_WHT_Security_Camera (199s)
+23:19:03  [ae] s1 benign->None Danmini_Doorbell (223s)
+23:19:27  [ae] s1 benign->None Ecobee_Thermostat (247s)
+23:19:47  [ae] s1 benign->None Ennio_Doorbell (267s)
+23:20:11  [ae] s1 benign->None Philips_B120N10_Baby_Monitor (291s)
+23:20:32  [ae] s1 benign->None Provision_PT_737E_Security_Camera (312s)
+23:20:53  [ae] s1 benign->None Provision_PT_838_Security_Camera (332s)
+23:21:09  [ae] s1 benign->None Samsung_SNH_1011_N_Webcam (348s)
+23:21:31  [ae] s1 benign->None SimpleHome_XCS7_1002_WHT_Security_Camera (371s)
+23:21:55  [ae] s1 benign->None SimpleHome_XCS7_1003_WHT_Security_Camera (395s)
+23:22:14  [ae] s2 benign->None Danmini_Doorbell (413s)
+23:22:33  [ae] s2 benign->None Ecobee_Thermostat (432s)
+23:31:28  [ae] s2 benign->None Ennio_Doorbell (968s)
+23:31:51  [ae] s2 benign->None Philips_B120N10_Baby_Monitor (991s)
+23:32:10  [ae] s2 benign->None Provision_PT_737E_Security_Camera (1010s)
+23:32:33  [ae] s2 benign->None Provision_PT_838_Security_Camera (1033s)
+23:32:53  [ae] s2 benign->None Samsung_SNH_1011_N_Webcam (1053s)
+23:33:16  [ae] s2 benign->None SimpleHome_XCS7_1002_WHT_Security_Camera (1076s)
+23:33:35  [ae] s2 benign->None SimpleHome_XCS7_1003_WHT_Security_Camera (1095s)
+23:33:35  stage ae DONE
+23:33:36  stage probe: sample 428000 rows, 9 devices
+23:33:50  [probe] s0 random norm=False L5 only: 0.900
+23:34:03  [probe] s0 random norm=False L3 only: 0.906
+23:34:17  [probe] s0 random norm=False L1 only: 0.911
+23:34:27  [probe] s0 random norm=False L0.1 only: 0.941
+23:34:36  [probe] s0 random norm=False L0.01 only: 0.986
+23:34:52  [probe] s0 random norm=False history only (L3, L1, L0.1, L0.01): 0.990
+23:35:12  [probe] s0 random norm=False all five decays: 0.990
+23:35:19  [probe] s0 random norm=True L5 only: 1.000
+23:35:26  [probe] s0 random norm=True L3 only: 1.000
+23:35:36  [probe] s0 random norm=True L1 only: 1.000
+23:35:42  [probe] s0 random norm=True L0.1 only: 1.000
+23:35:48  [probe] s0 random norm=True L0.01 only: 1.000
+23:35:55  [probe] s0 random norm=True history only (L3, L1, L0.1, L0.01): 1.000
+23:36:01  [probe] s0 random norm=True all five decays: 1.000
+23:36:18  [probe] s0 time-ordered norm=False L5 only: 0.900
+23:36:33  [probe] s0 time-ordered norm=False L3 only: 0.907
+23:36:48  [probe] s0 time-ordered norm=False L1 only: 0.911
+23:37:00  [probe] s0 time-ordered norm=False L0.1 only: 0.939
+23:37:10  [probe] s0 time-ordered norm=False L0.01 only: 0.983
+23:37:28  [probe] s0 time-ordered norm=False history only (L3, L1, L0.1, L0.01): 0.988
+23:37:50  [probe] s0 time-ordered norm=False all five decays: 0.988
+23:37:55  [probe] s0 time-ordered norm=True L5 only: 1.000
+23:37:59  [probe] s0 time-ordered norm=True L3 only: 1.000
+23:38:04  [probe] s0 time-ordered norm=True L1 only: 1.000
+23:38:09  [probe] s0 time-ordered norm=True L0.1 only: 1.000
+23:38:16  [probe] s0 time-ordered norm=True L0.01 only: 0.999
+23:38:26  [probe] s0 time-ordered norm=True history only (L3, L1, L0.1, L0.01): 1.000
+23:38:35  [probe] s0 time-ordered norm=True all five decays: 1.000
+23:38:46  [probe] s1 random norm=False L5 only: 0.902
+23:38:52  [probe] s1 random norm=False L3 only: 0.896
+23:39:04  [probe] s1 random norm=False L1 only: 0.914
+23:39:15  [probe] s1 random norm=False L0.1 only: 0.940
+23:39:23  [probe] s1 random norm=False L0.01 only: 0.988
+23:39:35  [probe] s1 random norm=False history only (L3, L1, L0.1, L0.01): 0.990
+23:39:50  [probe] s1 random norm=False all five decays: 0.990
+23:39:55  [probe] s1 random norm=True L5 only: 1.000
+23:39:59  [probe] s1 random norm=True L3 only: 1.000
+23:40:04  [probe] s1 random norm=True L1 only: 1.000
+23:40:08  [probe] s1 random norm=True L0.1 only: 1.000
+23:40:13  [probe] s1 random norm=True L0.01 only: 1.000
+23:40:20  [probe] s1 random norm=True history only (L3, L1, L0.1, L0.01): 1.000
+23:40:29  [probe] s1 random norm=True all five decays: 1.000
+23:40:40  [probe] s1 time-ordered norm=False L5 only: 0.902
+23:40:51  [probe] s1 time-ordered norm=False L3 only: 0.910
+23:41:02  [probe] s1 time-ordered norm=False L1 only: 0.912
+23:41:12  [probe] s1 time-ordered norm=False L0.1 only: 0.938
+23:41:20  [probe] s1 time-ordered norm=False L0.01 only: 0.982
+23:41:32  [probe] s1 time-ordered norm=False history only (L3, L1, L0.1, L0.01): 0.987
+23:41:45  [probe] s1 time-ordered norm=False all five decays: 0.988
+23:41:50  [probe] s1 time-ordered norm=True L5 only: 1.000
+23:41:55  [probe] s1 time-ordered norm=True L3 only: 1.000
+23:42:00  [probe] s1 time-ordered norm=True L1 only: 1.000
+23:42:06  [probe] s1 time-ordered norm=True L0.1 only: 1.000
+23:42:11  [probe] s1 time-ordered norm=True L0.01 only: 0.999
+23:42:18  [probe] s1 time-ordered norm=True history only (L3, L1, L0.1, L0.01): 1.000
+23:42:26  [probe] s1 time-ordered norm=True all five decays: 1.000
+23:42:37  [probe] s2 random norm=False L5 only: 0.902
+23:42:49  [probe] s2 random norm=False L3 only: 0.907
+23:43:00  [probe] s2 random norm=False L1 only: 0.915
+23:43:11  [probe] s2 random norm=False L0.1 only: 0.939
+23:43:18  [probe] s2 random norm=False L0.01 only: 0.986
+23:43:33  [probe] s2 random norm=False history only (L3, L1, L0.1, L0.01): 0.990
+23:43:45  [probe] s2 random norm=False all five decays: 0.990
+23:43:49  [probe] s2 random norm=True L5 only: 1.000
+23:43:54  [probe] s2 random norm=True L3 only: 1.000
+23:43:59  [probe] s2 random norm=True L1 only: 1.000
+23:44:04  [probe] s2 random norm=True L0.1 only: 1.000
+23:44:09  [probe] s2 random norm=True L0.01 only: 1.000
+23:44:18  [probe] s2 random norm=True history only (L3, L1, L0.1, L0.01): 1.000
+23:44:25  [probe] s2 random norm=True all five decays: 1.000
+23:44:40  [probe] s2 time-ordered norm=False L5 only: 0.901
+23:44:52  [probe] s2 time-ordered norm=False L3 only: 0.907
+23:45:03  [probe] s2 time-ordered norm=False L1 only: 0.911
+23:45:14  [probe] s2 time-ordered norm=False L0.1 only: 0.938
+23:45:29  [probe] s2 time-ordered norm=False L0.01 only: 0.983
+23:45:46  [probe] s2 time-ordered norm=False history only (L3, L1, L0.1, L0.01): 0.988
+23:46:07  [probe] s2 time-ordered norm=False all five decays: 0.987
+23:46:14  [probe] s2 time-ordered norm=True L5 only: 1.000
+23:46:19  [probe] s2 time-ordered norm=True L3 only: 1.000
+23:46:27  [probe] s2 time-ordered norm=True L1 only: 1.000
+23:46:33  [probe] s2 time-ordered norm=True L0.1 only: 1.000
+23:46:41  [probe] s2 time-ordered norm=True L0.01 only: 0.999
+23:46:52  [probe] s2 time-ordered norm=True history only (L3, L1, L0.1, L0.01): 1.000
+23:47:04  [probe] s2 time-ordered norm=True all five decays: 1.000
+23:47:04  stage probe DONE
+23:48:05  [replicate] s0 gafgyt->mirai (58s)
+23:49:03  [replicate] s0 mirai->gafgyt (116s)
+23:50:07  [replicate] s1 gafgyt->mirai (180s)
+23:51:03  [replicate] s1 mirai->gafgyt (236s)
+23:52:08  [replicate] s2 gafgyt->mirai (301s)
+23:53:17  [replicate] s2 mirai->gafgyt (370s)
+23:53:17  [replicate] DONE

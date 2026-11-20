@@ -1,0 +1,8 @@
+# the N-BaIoT release is downloaded by get_data.py, not stored here
+data_real/
+# created by src/devicepulse/rerun_review.py on import; not used by the revision run
+results_rerun/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

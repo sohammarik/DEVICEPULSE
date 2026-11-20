@@ -1,0 +1,769 @@
+held_out,condition,seed,train_family,test_family,false_alert_budget,calibration,nominal_attainable,realised_rate_on_calibration_pool,realised_false_alert_rate_target,campaign_recall,campaigns,campaigns_detected,row_recall,median_rows_to_detection,detected_by_10,detected_by_100,status
+Danmini_Doorbell,current window only,0,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.7218,3.0,0.8,1.0,OK
+Danmini_Doorbell,current window only,0,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0003333333333333333,1.0,5,5,0.99485,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,0,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.72235,3.0,0.8,1.0,OK
+Danmini_Doorbell,current window only,0,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.0021666666666666666,1.0,5,5,0.99695,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,0,gafgyt,mirai,0.001,oracle,True,0.0008333333333333334,0.0008333333333333334,1.0,5,5,0.99625,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,0,gafgyt,mirai,0.001,source,True,0.001,0.009666666666666667,1.0,5,5,0.998,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,0,gafgyt,mirai,0.003,oracle,True,0.00275,0.00275,1.0,5,5,0.997,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,0,gafgyt,mirai,0.003,source,True,0.003,0.016666666666666666,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,0,gafgyt,mirai,0.0001,oracle,False,0.0,0.0,1.0,5,5,0.6495,701.0,0.4,0.4,OK
+Danmini_Doorbell,current window plus causal history,0,gafgyt,mirai,0.0001,source,True,7.291666666666667e-05,0.0021666666666666666,1.0,5,5,0.96265,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,0,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.6506,701.0,0.4,0.4,OK
+Danmini_Doorbell,current window plus causal history,0,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.002916666666666667,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,0,gafgyt,mirai,0.001,oracle,True,0.0008333333333333334,0.0008333333333333334,1.0,5,5,0.72035,4.0,0.6,0.8,OK
+Danmini_Doorbell,current window plus causal history,0,gafgyt,mirai,0.001,source,True,0.001,0.004,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,0,gafgyt,mirai,0.003,oracle,True,0.002916666666666667,0.002916666666666667,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,0,gafgyt,mirai,0.003,source,True,0.0029895833333333332,0.00575,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,0,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.7883,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,0,gafgyt,mirai,0.0001,source,True,9.375e-05,0.00025,1.0,5,5,0.93755,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,0,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.8988,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,0,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.00125,1.0,5,5,0.99345,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,0,gafgyt,mirai,0.001,oracle,True,0.0009166666666666666,0.0009166666666666666,1.0,5,5,0.9929,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,0,gafgyt,mirai,0.001,source,True,0.0009270833333333334,0.004416666666666667,1.0,5,5,0.99915,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,0,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.99655,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,0,gafgyt,mirai,0.003,source,True,0.003,0.01,1.0,5,5,0.9997,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,0,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.686,1324.0,0.4,0.4,OK
+Ecobee_Thermostat,current window plus causal history,0,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0006666666666666666,1.0,5,5,0.6873,431.0,0.4,0.4,OK
+Ecobee_Thermostat,current window plus causal history,0,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.686,1324.0,0.4,0.4,OK
+Ecobee_Thermostat,current window plus causal history,0,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.0011666666666666668,1.0,5,5,0.814,1.0,0.8,1.0,OK
+Ecobee_Thermostat,current window plus causal history,0,gafgyt,mirai,0.001,oracle,True,0.0008333333333333334,0.0008333333333333334,1.0,5,5,0.688,1.0,0.6,0.6,OK
+Ecobee_Thermostat,current window plus causal history,0,gafgyt,mirai,0.001,source,True,0.001,0.0021666666666666666,1.0,5,5,0.9322,1.0,0.8,1.0,OK
+Ecobee_Thermostat,current window plus causal history,0,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.99795,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,0,gafgyt,mirai,0.003,source,True,0.003,0.00425,1.0,5,5,0.9985,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,0,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.7083,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,0,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0023333333333333335,1.0,5,5,0.97105,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,0,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.8025,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,0,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.007,1.0,5,5,0.97395,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,0,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.96555,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,0,gafgyt,mirai,0.001,source,True,0.001,0.02325,1.0,5,5,0.99395,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,0,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9716,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,0,gafgyt,mirai,0.003,source,True,0.003,0.042083333333333334,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,0,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.8,5,4,0.33855,1.0,0.6,0.6,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,0,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0011666666666666668,1.0,5,5,0.80915,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,0,gafgyt,mirai,0.0003,oracle,True,0.00016666666666666666,0.00016666666666666666,1.0,5,5,0.66465,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,0,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.00175,1.0,5,5,0.98765,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,0,gafgyt,mirai,0.001,oracle,True,0.00075,0.00075,1.0,5,5,0.7948,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,0,gafgyt,mirai,0.001,source,True,0.0009895833333333334,0.0035,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,0,gafgyt,mirai,0.003,oracle,True,0.002916666666666667,0.002916666666666667,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,0,gafgyt,mirai,0.003,source,True,0.002979166666666667,0.005583333333333333,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,0,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.37115,36.0,0.4,0.8,OK
+Provision_PT_737E_Security_Camera,current window only,0,gafgyt,mirai,0.0001,source,True,9.375e-05,0.00016666666666666666,1.0,5,5,0.462,2.0,0.8,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,0,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.5366,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,0,gafgyt,mirai,0.0003,source,True,0.0002708333333333333,0.0004166666666666667,1.0,5,5,0.617,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,0,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.87375,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,0,gafgyt,mirai,0.001,source,True,0.0009895833333333334,0.0010833333333333333,1.0,5,5,0.88005,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,0,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9601,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,0,gafgyt,mirai,0.003,source,True,0.002947916666666667,0.0020833333333333333,1.0,5,5,0.94135,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.0001,oracle,False,0.0,0.0,1.0,5,5,0.6062,158.0,0.4,0.4,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.0001,source,True,8.333333333333333e-05,0.0009166666666666666,1.0,5,5,0.9956,1.0,0.6,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.89095,3.0,0.6,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.0016666666666666668,1.0,5,5,0.99805,1.0,0.8,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.9956,1.0,0.6,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.001,source,True,0.0009791666666666666,0.00275,1.0,5,5,0.99955,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9997,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.003,source,True,0.003,0.005166666666666667,1.0,5,5,0.99995,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window only,0,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.37955,4.0,0.6,1.0,OK
+Provision_PT_838_Security_Camera,current window only,0,gafgyt,mirai,0.0001,source,True,9.375e-05,0.00575,1.0,5,5,0.9396,2.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window only,0,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.51645,3.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window only,0,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.013916666666666667,1.0,5,5,0.94895,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window only,0,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.88875,2.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window only,0,gafgyt,mirai,0.001,source,True,0.0009895833333333334,0.022333333333333334,1.0,5,5,0.9665,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window only,0,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9175,2.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window only,0,gafgyt,mirai,0.003,source,True,0.003,0.050583333333333334,1.0,5,5,0.97035,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.84485,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0008333333333333334,1.0,5,5,0.9999,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.9999,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.0016666666666666668,1.0,5,5,0.9999,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.9999,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.001,source,True,0.001,0.00275,1.0,5,5,0.9999,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9999,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.003,source,True,0.002979166666666667,0.0045,1.0,5,5,1.0,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,gafgyt,mirai,0.0001,oracle,False,0.0,0.0,0.2,5,1,0.18145,1.0,0.2,0.2,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,gafgyt,mirai,0.0001,source,True,9.375e-05,0.08966666666666667,1.0,5,5,0.7871,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,gafgyt,mirai,0.0003,oracle,False,0.0,0.0,0.2,5,1,0.18145,1.0,0.2,0.2,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.11491666666666667,1.0,5,5,0.81885,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,gafgyt,mirai,0.001,oracle,True,0.0005833333333333334,0.0005833333333333334,0.4,5,2,0.1815,1362.5,0.2,0.2,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,gafgyt,mirai,0.001,source,True,0.001,0.16191666666666665,1.0,5,5,0.8517,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,gafgyt,mirai,0.003,oracle,True,0.0025,0.0025,0.8,5,4,0.32735,1715.0,0.2,0.4,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,gafgyt,mirai,0.003,source,True,0.003,0.2564166666666667,1.0,5,5,0.92985,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.49715,1179.0,0.4,0.4,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.0001,source,True,9.375e-05,0.006833333333333334,1.0,5,5,0.73405,17.0,0.4,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.53585,1179.0,0.4,0.4,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.036333333333333336,1.0,5,5,0.7814,3.0,0.6,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.68925,1179.0,0.4,0.4,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.001,source,True,0.001,0.03916666666666667,1.0,5,5,0.97585,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.003,oracle,True,0.002916666666666667,0.002916666666666667,1.0,5,5,0.68925,1179.0,0.4,0.4,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.003,source,True,0.002916666666666667,0.05425,1.0,5,5,0.99995,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,gafgyt,mirai,0.0001,oracle,False,0.0,0.0,1.0,5,5,0.91485,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0004166666666666667,1.0,5,5,0.92835,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,gafgyt,mirai,0.0003,oracle,False,0.0,0.0,1.0,5,5,0.91485,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.001,1.0,5,5,0.95505,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.94845,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,gafgyt,mirai,0.001,source,True,0.001,0.0019166666666666666,1.0,5,5,0.9944,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,gafgyt,mirai,0.003,oracle,True,0.0025,0.0025,1.0,5,5,0.99885,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,gafgyt,mirai,0.003,source,True,0.003,0.005333333333333333,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.0001,oracle,False,0.0,0.0,1.0,5,5,0.67205,1193.0,0.4,0.4,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.0001,source,True,8.333333333333333e-05,0.0004166666666666667,1.0,5,5,0.8742,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.0003,oracle,False,0.0,0.0,1.0,5,5,0.67205,1193.0,0.4,0.4,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.0003,source,True,0.00026041666666666666,0.0008333333333333334,1.0,5,5,0.98405,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.001,oracle,True,0.0008333333333333334,0.0008333333333333334,1.0,5,5,0.9827,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.001,source,True,0.001,0.0016666666666666668,1.0,5,5,0.9998,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.99985,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,gafgyt,mirai,0.003,source,True,0.0029895833333333332,0.00325,1.0,5,5,0.99985,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,0,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.5876,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window only,0,mirai,gafgyt,0.0001,source,True,9.375e-05,8.333333333333333e-05,0.6,5,3,0.5876,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window only,0,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.59145,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window only,0,mirai,gafgyt,0.0003,source,True,0.00028125,8.333333333333333e-05,0.6,5,3,0.5897,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window only,0,mirai,gafgyt,0.001,oracle,True,0.001,0.001,1.0,5,5,0.99395,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,0,mirai,gafgyt,0.001,source,True,0.001,0.0004166666666666667,0.6,5,3,0.5921,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window only,0,mirai,gafgyt,0.003,oracle,True,0.003,0.003,1.0,5,5,0.99565,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,0,mirai,gafgyt,0.003,source,True,0.0029895833333333332,0.0009166666666666666,1.0,5,5,0.99395,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,0,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.59995,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window plus causal history,0,mirai,gafgyt,0.0001,source,True,8.333333333333333e-05,0.0,0.6,5,3,0.59995,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window plus causal history,0,mirai,gafgyt,0.0003,oracle,True,0.00016666666666666666,0.00016666666666666666,0.6,5,3,0.59995,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window plus causal history,0,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.0005833333333333334,0.6,5,3,0.59995,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window plus causal history,0,mirai,gafgyt,0.001,oracle,True,0.001,0.001,1.0,5,5,0.9996,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,0,mirai,gafgyt,0.001,source,True,0.0009791666666666666,0.0014166666666666668,1.0,5,5,0.9996,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,0,mirai,gafgyt,0.003,oracle,True,0.0021666666666666666,0.0021666666666666666,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,0,mirai,gafgyt,0.003,source,True,0.0029895833333333332,0.00175,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,0,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.58415,2.0,0.6,0.6,OK
+Ecobee_Thermostat,current window only,0,mirai,gafgyt,0.0001,source,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.58925,2.0,0.6,0.6,OK
+Ecobee_Thermostat,current window only,0,mirai,gafgyt,0.0003,oracle,True,0.00016666666666666666,0.00016666666666666666,1.0,5,5,0.9934,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,0,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,8.333333333333333e-05,0.8,5,4,0.59095,2.5,0.6,0.6,OK
+Ecobee_Thermostat,current window only,0,mirai,gafgyt,0.001,oracle,True,0.0009166666666666666,0.0009166666666666666,1.0,5,5,0.9955,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,0,mirai,gafgyt,0.001,source,True,0.001,8.333333333333333e-05,1.0,5,5,0.5936,2.0,0.6,0.6,OK
+Ecobee_Thermostat,current window only,0,mirai,gafgyt,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9962,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,0,mirai,gafgyt,0.003,source,True,0.003,0.0005833333333333334,1.0,5,5,0.9952,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,0,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.5915,2.0,0.4,0.6,OK
+Ecobee_Thermostat,current window plus causal history,0,mirai,gafgyt,0.0001,source,True,9.375e-05,0.00075,1.0,5,5,0.9985,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,0,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.59155,2.0,0.4,0.6,OK
+Ecobee_Thermostat,current window plus causal history,0,mirai,gafgyt,0.0003,source,True,0.00028125,0.0008333333333333334,1.0,5,5,0.9985,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,0,mirai,gafgyt,0.001,oracle,True,0.001,0.001,1.0,5,5,0.9986,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,0,mirai,gafgyt,0.001,source,True,0.001,0.0013333333333333333,1.0,5,5,0.99865,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,0,mirai,gafgyt,0.003,oracle,True,0.003,0.003,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,0,mirai,gafgyt,0.003,source,True,0.002927083333333333,0.0025,1.0,5,5,0.9996,1.0,1.0,1.0,OK
+Ennio_Doorbell,current window only,0,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.5601,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,0,mirai,gafgyt,0.0001,source,True,9.375e-05,0.00725,0.6,5,3,0.5894,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,0,mirai,gafgyt,0.0003,oracle,True,0.00016666666666666666,0.00016666666666666666,0.6,5,3,0.5601,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,0,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.01075,0.6,5,3,0.5918,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,0,mirai,gafgyt,0.001,oracle,True,0.0008333333333333334,0.0008333333333333334,0.6,5,3,0.5787,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,0,mirai,gafgyt,0.001,source,True,0.0009166666666666666,0.011583333333333333,1.0,5,5,0.9933,1.0,1.0,1.0,OK
+Ennio_Doorbell,current window only,0,mirai,gafgyt,0.003,oracle,True,0.00225,0.00225,0.6,5,3,0.5879,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,0,mirai,gafgyt,0.003,source,True,0.003,0.01775,1.0,5,5,0.9956,1.0,1.0,1.0,OK
+Ennio_Doorbell,current window plus causal history,0,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.58815,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window plus causal history,0,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0011666666666666668,0.6,5,3,0.59125,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window plus causal history,0,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.58815,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window plus causal history,0,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.00275,0.6,5,3,0.59935,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window plus causal history,0,mirai,gafgyt,0.001,oracle,True,0.0009166666666666666,0.0009166666666666666,0.6,5,3,0.5894,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window plus causal history,0,mirai,gafgyt,0.001,source,True,0.0009791666666666666,0.005916666666666666,1.0,5,5,0.9995,1.0,1.0,1.0,OK
+Ennio_Doorbell,current window plus causal history,0,mirai,gafgyt,0.003,oracle,True,0.003,0.003,1.0,5,5,0.99935,1.0,1.0,1.0,OK
+Ennio_Doorbell,current window plus causal history,0,mirai,gafgyt,0.003,source,True,0.002927083333333333,0.0125,1.0,5,5,0.99955,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,0,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.4148,144.0,0.0,0.2,OK
+Philips_B120N10_Baby_Monitor,current window only,0,mirai,gafgyt,0.0001,source,True,8.333333333333333e-05,0.007083333333333333,0.8,5,4,0.5887,6.0,0.6,0.6,OK
+Philips_B120N10_Baby_Monitor,current window only,0,mirai,gafgyt,0.0003,oracle,True,0.00016666666666666666,0.00016666666666666666,0.6,5,3,0.4148,144.0,0.0,0.2,OK
+Philips_B120N10_Baby_Monitor,current window only,0,mirai,gafgyt,0.0003,source,True,0.0002708333333333333,0.008083333333333333,0.8,5,4,0.59065,2.5,0.6,0.6,OK
+Philips_B120N10_Baby_Monitor,current window only,0,mirai,gafgyt,0.001,oracle,True,0.001,0.001,0.6,5,3,0.4274,139.0,0.0,0.2,OK
+Philips_B120N10_Baby_Monitor,current window only,0,mirai,gafgyt,0.001,source,True,0.001,0.0095,1.0,5,5,0.9922,2.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,0,mirai,gafgyt,0.003,oracle,True,0.003,0.003,0.6,5,3,0.5674,3.0,0.4,0.6,OK
+Philips_B120N10_Baby_Monitor,current window only,0,mirai,gafgyt,0.003,source,True,0.003,0.0115,1.0,5,5,0.99445,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,0,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.59595,3.0,0.6,0.6,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,0,mirai,gafgyt,0.0001,source,True,8.333333333333333e-05,0.004,0.6,5,3,0.59935,3.0,0.6,0.6,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,0,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.59595,3.0,0.6,0.6,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,0,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.00425,1.0,5,5,0.9995,2.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,0,mirai,gafgyt,0.001,oracle,True,0.00075,0.00075,0.6,5,3,0.59595,3.0,0.6,0.6,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,0,mirai,gafgyt,0.001,source,True,0.001,0.005,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,0,mirai,gafgyt,0.003,oracle,True,0.002916666666666667,0.002916666666666667,0.6,5,3,0.5991,3.0,0.6,0.6,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,0,mirai,gafgyt,0.003,source,True,0.003,0.008166666666666666,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,0,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.5793,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,0,mirai,gafgyt,0.0001,source,True,7.291666666666667e-05,0.0005833333333333334,0.6,5,3,0.5868,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,0,mirai,gafgyt,0.0003,oracle,True,0.00016666666666666666,0.00016666666666666666,0.6,5,3,0.5793,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,0,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.001,0.6,5,3,0.5885,2.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,0,mirai,gafgyt,0.001,oracle,True,0.001,0.001,0.6,5,3,0.58805,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,0,mirai,gafgyt,0.001,source,True,0.001,0.0018333333333333333,0.6,5,3,0.59195,2.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,0,mirai,gafgyt,0.003,oracle,True,0.002916666666666667,0.002916666666666667,0.6,5,3,0.5944,1.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,0,mirai,gafgyt,0.003,source,True,0.003,0.003416666666666667,0.6,5,3,0.59545,1.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.5828,19.0,0.2,0.4,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0008333333333333334,0.6,5,3,0.5997,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.58365,19.0,0.2,0.4,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.0003,source,True,0.00028125,0.001,0.6,5,3,0.59975,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.001,oracle,True,0.001,0.001,0.6,5,3,0.5997,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.001,source,True,0.001,0.0016666666666666668,1.0,5,5,0.99955,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.003,oracle,True,0.003,0.003,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.003,source,True,0.003,0.0031666666666666666,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window only,0,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.2,5,1,0.03525,43.0,0.0,0.2,OK
+Provision_PT_838_Security_Camera,current window only,0,mirai,gafgyt,0.0001,source,True,9.375e-05,0.007083333333333333,0.8,5,4,0.5901,2.5,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window only,0,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.45125,91.0,0.2,0.4,OK
+Provision_PT_838_Security_Camera,current window only,0,mirai,gafgyt,0.0003,source,True,0.0002708333333333333,0.008083333333333333,0.8,5,4,0.5925,2.5,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window only,0,mirai,gafgyt,0.001,oracle,True,0.001,0.001,0.6,5,3,0.5673,3.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window only,0,mirai,gafgyt,0.001,source,True,0.0009791666666666666,0.010583333333333333,1.0,5,5,0.59425,3.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window only,0,mirai,gafgyt,0.003,oracle,True,0.0028333333333333335,0.0028333333333333335,0.6,5,3,0.5844,2.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window only,0,mirai,gafgyt,0.003,source,True,0.0029895833333333332,0.018833333333333334,1.0,5,5,0.9959,2.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.59565,3.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.0001,source,True,7.291666666666667e-05,8.333333333333333e-05,0.6,5,3,0.59615,3.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.9986,2.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.0003,source,True,0.0002708333333333333,8.333333333333333e-05,0.6,5,3,0.5962,2.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.001,oracle,True,0.001,0.001,1.0,5,5,0.99875,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.001,source,True,0.0009895833333333334,0.0003333333333333333,1.0,5,5,0.99865,2.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.003,oracle,True,0.0028333333333333335,0.0028333333333333335,1.0,5,5,0.999,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.003,source,True,0.0028541666666666667,0.0009166666666666666,1.0,5,5,0.99875,1.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window only,0,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.59055,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window only,0,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0,0.6,5,3,0.59025,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window only,0,mirai,gafgyt,0.0003,oracle,True,0.00016666666666666666,0.00016666666666666666,0.6,5,3,0.5909,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window only,0,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.0003333333333333333,0.6,5,3,0.5917,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window only,0,mirai,gafgyt,0.001,oracle,True,0.001,0.001,0.8,5,4,0.59515,1.0,0.8,0.8,OK
+Samsung_SNH_1011_N_Webcam,current window only,0,mirai,gafgyt,0.001,source,True,0.0009895833333333334,0.00075,0.6,5,3,0.59445,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window only,0,mirai,gafgyt,0.003,oracle,True,0.001,0.001,0.8,5,4,0.59515,1.0,0.8,0.8,OK
+Samsung_SNH_1011_N_Webcam,current window only,0,mirai,gafgyt,0.003,source,True,0.003,0.13458333333333333,1.0,5,5,0.9952,1.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,0,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.5901,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,0,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0,0.6,5,3,0.58975,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,0,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.9895,2.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,0,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.00025,1.0,5,5,0.9898,2.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,0,mirai,gafgyt,0.001,oracle,True,0.001,0.001,1.0,5,5,0.99905,1.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,0,mirai,gafgyt,0.001,source,True,0.001,0.0008333333333333334,1.0,5,5,0.99905,1.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,0,mirai,gafgyt,0.003,oracle,True,0.00225,0.00225,1.0,5,5,0.9992,1.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,0,mirai,gafgyt,0.003,source,True,0.003,0.0019166666666666666,1.0,5,5,0.9991,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.21535,34.0,0.0,0.4,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,mirai,gafgyt,0.0001,source,True,9.375e-05,0.047,0.6,5,3,0.58765,2.0,0.6,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,mirai,gafgyt,0.0003,oracle,True,0.00016666666666666666,0.00016666666666666666,0.6,5,3,0.4965,11.0,0.2,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.0475,0.6,5,3,0.59,2.0,0.6,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,mirai,gafgyt,0.001,oracle,True,0.0009166666666666666,0.0009166666666666666,0.6,5,3,0.501,6.0,0.4,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,mirai,gafgyt,0.001,source,True,0.0008541666666666667,0.051166666666666666,0.6,5,3,0.5929,2.0,0.6,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,mirai,gafgyt,0.003,oracle,True,0.003,0.003,0.6,5,3,0.5515,6.0,0.4,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,mirai,gafgyt,0.003,source,True,0.0029375,0.05383333333333333,0.6,5,3,0.59475,2.0,0.6,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.531,6.0,0.4,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.0001,source,True,9.375e-05,0.041833333333333333,0.6,5,3,0.5988,1.0,0.6,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.0003,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.531,6.0,0.4,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.0003,source,True,0.00028125,0.043416666666666666,1.0,5,5,0.99855,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.531,6.0,0.4,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.001,source,True,0.001,0.04791666666666667,1.0,5,5,0.9989,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.003,oracle,True,0.003,0.003,0.6,5,3,0.57075,6.0,0.4,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.003,source,True,0.0029895833333333332,0.051333333333333335,1.0,5,5,0.99925,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.58855,2.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0,0.6,5,3,0.584,3.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,mirai,gafgyt,0.0003,oracle,True,0.00016666666666666666,0.00016666666666666666,0.6,5,3,0.589,2.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.0,0.6,5,3,0.58815,3.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,mirai,gafgyt,0.001,oracle,True,0.001,0.001,0.8,5,4,0.5919,2.5,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,mirai,gafgyt,0.001,source,True,0.001,0.0005,0.8,5,4,0.5919,2.5,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,mirai,gafgyt,0.003,oracle,True,0.003,0.003,1.0,5,5,0.99465,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,mirai,gafgyt,0.003,source,True,0.0029895833333333332,0.00125,0.8,5,4,0.59465,1.5,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.597,3.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0005,0.6,5,3,0.59735,3.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.0003,oracle,False,0.0,0.0,0.6,5,3,0.597,3.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.00075,0.6,5,3,0.59895,3.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.001,oracle,True,0.00075,0.00075,0.6,5,3,0.59895,3.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.001,source,True,0.0009895833333333334,0.0019166666666666666,1.0,5,5,0.99855,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.003,oracle,True,0.003,0.003,1.0,5,5,0.99895,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,mirai,gafgyt,0.003,source,True,0.003,0.0033333333333333335,1.0,5,5,0.99895,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,1,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.70365,1.0,0.8,1.0,OK
+Danmini_Doorbell,current window only,1,gafgyt,mirai,0.0001,source,True,9.375e-05,0.00225,1.0,5,5,0.92005,1.0,0.8,1.0,OK
+Danmini_Doorbell,current window only,1,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.71905,1.0,0.8,1.0,OK
+Danmini_Doorbell,current window only,1,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.0035,1.0,5,5,0.98445,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,1,gafgyt,mirai,0.001,oracle,True,0.0008333333333333334,0.0008333333333333334,1.0,5,5,0.78305,1.0,0.8,1.0,OK
+Danmini_Doorbell,current window only,1,gafgyt,mirai,0.001,source,True,0.001,0.01525,1.0,5,5,0.99795,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,1,gafgyt,mirai,0.003,oracle,True,0.00275,0.00275,1.0,5,5,0.9773,1.0,0.8,1.0,OK
+Danmini_Doorbell,current window only,1,gafgyt,mirai,0.003,source,True,0.003,0.02266666666666667,1.0,5,5,0.99915,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,1,gafgyt,mirai,0.0001,oracle,False,0.0,0.0,1.0,5,5,0.64985,687.0,0.4,0.4,OK
+Danmini_Doorbell,current window plus causal history,1,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0028333333333333335,1.0,5,5,0.99925,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,1,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.64985,687.0,0.4,0.4,OK
+Danmini_Doorbell,current window plus causal history,1,gafgyt,mirai,0.0003,source,True,0.00022916666666666666,0.0028333333333333335,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,1,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.6949,1.0,0.6,0.8,OK
+Danmini_Doorbell,current window plus causal history,1,gafgyt,mirai,0.001,source,True,0.001,0.003916666666666666,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,1,gafgyt,mirai,0.003,oracle,True,0.002916666666666667,0.002916666666666667,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,1,gafgyt,mirai,0.003,source,True,0.003,0.005416666666666667,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,1,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.8827,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,1,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0015,1.0,5,5,0.98815,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,1,gafgyt,mirai,0.0003,oracle,True,0.00016666666666666666,0.00016666666666666666,1.0,5,5,0.96345,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,1,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.0028333333333333335,1.0,5,5,0.99315,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,1,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.9874,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,1,gafgyt,mirai,0.001,source,True,0.001,0.010166666666666666,1.0,5,5,0.9996,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,1,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9941,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,1,gafgyt,mirai,0.003,source,True,0.003,0.0165,1.0,5,5,0.99985,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,1,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.68585,1327.0,0.4,0.4,OK
+Ecobee_Thermostat,current window plus causal history,1,gafgyt,mirai,0.0001,source,True,9.375e-05,0.00075,1.0,5,5,0.9436,1.0,0.8,1.0,OK
+Ecobee_Thermostat,current window plus causal history,1,gafgyt,mirai,0.0003,oracle,True,0.00016666666666666666,0.00016666666666666666,1.0,5,5,0.7068,1.0,0.6,0.6,OK
+Ecobee_Thermostat,current window plus causal history,1,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.0014166666666666668,1.0,5,5,0.98185,1.0,0.8,1.0,OK
+Ecobee_Thermostat,current window plus causal history,1,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.9474,1.0,0.8,1.0,OK
+Ecobee_Thermostat,current window plus causal history,1,gafgyt,mirai,0.001,source,True,0.0009895833333333334,0.00225,1.0,5,5,0.99845,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,1,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.99865,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,1,gafgyt,mirai,0.003,source,True,0.003,0.004916666666666666,1.0,5,5,0.99865,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,1,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.72565,2.0,0.8,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,1,gafgyt,mirai,0.0001,source,True,9.375e-05,0.00675,1.0,5,5,0.9174,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,1,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.72575,2.0,0.8,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,1,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.0125,1.0,5,5,0.9904,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,1,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.7494,2.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,1,gafgyt,mirai,0.001,source,True,0.001,0.029583333333333333,1.0,5,5,0.99625,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,1,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.82345,2.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,1,gafgyt,mirai,0.003,source,True,0.003,0.06708333333333333,1.0,5,5,0.99785,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,1,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.8614,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,1,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0009166666666666666,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,1,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.86575,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,1,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.00175,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,1,gafgyt,mirai,0.001,oracle,True,0.0009166666666666666,0.0009166666666666666,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,1,gafgyt,mirai,0.001,source,True,0.001,0.00275,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,1,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,1,gafgyt,mirai,0.003,source,True,0.0029895833333333332,0.00825,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,1,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.3913,36.0,0.4,0.8,OK
+Provision_PT_737E_Security_Camera,current window only,1,gafgyt,mirai,0.0001,source,True,9.375e-05,8.333333333333333e-05,1.0,5,5,0.62165,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,1,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.6619,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,1,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.0003333333333333333,1.0,5,5,0.6967,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,1,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.8561,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,1,gafgyt,mirai,0.001,source,True,0.001,0.0011666666666666668,1.0,5,5,0.92825,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,1,gafgyt,mirai,0.003,oracle,True,0.002916666666666667,0.002916666666666667,1.0,5,5,0.93535,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,1,gafgyt,mirai,0.003,source,True,0.003,0.0030833333333333333,1.0,5,5,0.93905,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.0001,oracle,False,0.0,0.0,1.0,5,5,0.5961,864.0,0.4,0.4,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0005833333333333334,1.0,5,5,0.75065,11.0,0.4,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.5964,864.0,0.4,0.4,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.0011666666666666668,1.0,5,5,0.8688,3.0,0.6,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.8673,3.0,0.6,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.001,source,True,0.0009895833333333334,0.0020833333333333333,1.0,5,5,0.87095,3.0,0.8,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9327,3.0,0.8,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.003,source,True,0.003,0.005083333333333333,1.0,5,5,0.9976,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window only,1,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.8,5,4,0.1372,104.0,0.4,0.4,OK
+Provision_PT_838_Security_Camera,current window only,1,gafgyt,mirai,0.0001,source,True,9.375e-05,0.006,1.0,5,5,0.9711,2.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window only,1,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.36465,4.0,0.6,1.0,OK
+Provision_PT_838_Security_Camera,current window only,1,gafgyt,mirai,0.0003,source,True,0.0002708333333333333,0.013416666666666667,1.0,5,5,0.9904,2.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window only,1,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.66735,2.0,0.6,1.0,OK
+Provision_PT_838_Security_Camera,current window only,1,gafgyt,mirai,0.001,source,True,0.0009895833333333334,0.02125,1.0,5,5,0.997,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window only,1,gafgyt,mirai,0.003,oracle,True,0.0028333333333333335,0.0028333333333333335,1.0,5,5,0.82165,2.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window only,1,gafgyt,mirai,0.003,source,True,0.003,0.0505,1.0,5,5,0.9996,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.8305,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.0001,source,True,9.375e-05,0.00325,1.0,5,5,0.9999,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.9372,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.0003,source,True,0.00028125,0.004166666666666667,1.0,5,5,0.9999,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.9999,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.001,source,True,0.001,0.005416666666666667,1.0,5,5,0.9999,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9999,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.003,source,True,0.003,0.008916666666666666,1.0,5,5,1.0,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.2,5,1,0.14745,1.0,0.2,0.2,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,gafgyt,mirai,0.0001,source,True,9.375e-05,0.07708333333333334,1.0,5,5,0.7962,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,0.4,5,2,0.1851,601.5,0.2,0.2,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.0975,1.0,5,5,0.81515,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,gafgyt,mirai,0.001,oracle,True,0.00025,0.00025,0.4,5,2,0.1851,601.5,0.2,0.2,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,gafgyt,mirai,0.001,source,True,0.0009895833333333334,0.12541666666666668,1.0,5,5,0.86395,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,gafgyt,mirai,0.003,oracle,True,0.0028333333333333335,0.0028333333333333335,0.4,5,2,0.1852,601.5,0.2,0.2,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,gafgyt,mirai,0.003,source,True,0.003,0.15475,1.0,5,5,0.9982,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.6846,1179.0,0.4,0.4,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0325,1.0,5,5,0.99575,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.6846,1179.0,0.4,0.4,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.036166666666666666,1.0,5,5,1.0,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.001,oracle,True,0.00075,0.00075,1.0,5,5,0.6849,289.0,0.4,0.4,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.001,source,True,0.0009895833333333334,0.03991666666666667,1.0,5,5,1.0,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.003,oracle,True,0.00075,0.00075,1.0,5,5,0.6849,289.0,0.4,0.4,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.003,source,True,0.003,0.05241666666666667,1.0,5,5,1.0,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.7558,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0003333333333333333,1.0,5,5,0.81225,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,gafgyt,mirai,0.0003,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.7558,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.00125,1.0,5,5,0.969,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.82905,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,gafgyt,mirai,0.001,source,True,0.001,0.0026666666666666666,1.0,5,5,0.99435,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,gafgyt,mirai,0.003,oracle,True,0.0028333333333333335,0.0028333333333333335,1.0,5,5,0.9954,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,gafgyt,mirai,0.003,source,True,0.002979166666666667,0.005666666666666667,1.0,5,5,0.99865,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.4,5,2,0.34195,1.0,0.4,0.4,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0004166666666666667,1.0,5,5,0.67665,1142.0,0.4,0.4,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.0003,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.4,5,2,0.34195,1.0,0.4,0.4,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.0003,source,True,0.00022916666666666666,0.0004166666666666667,1.0,5,5,0.67775,1142.0,0.4,0.4,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.001,oracle,True,0.0004166666666666667,0.0004166666666666667,1.0,5,5,0.5484,1196.0,0.4,0.4,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.001,source,True,0.001,0.0018333333333333333,1.0,5,5,0.99425,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.003,oracle,True,0.002916666666666667,0.002916666666666667,1.0,5,5,1.0,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,gafgyt,mirai,0.003,source,True,0.003,0.0021666666666666666,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,1,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.58815,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window only,1,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0,0.6,5,3,0.58635,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window only,1,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.59285,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window only,1,mirai,gafgyt,0.0003,source,True,0.00028125,8.333333333333333e-05,0.6,5,3,0.59,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window only,1,mirai,gafgyt,0.001,oracle,True,0.001,0.001,0.6,5,3,0.5949,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window only,1,mirai,gafgyt,0.001,source,True,0.001,0.00025,0.6,5,3,0.593,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window only,1,mirai,gafgyt,0.003,oracle,True,0.0026666666666666666,0.0026666666666666666,1.0,5,5,0.996,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,1,mirai,gafgyt,0.003,source,True,0.003,0.001,0.6,5,3,0.5954,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window plus causal history,1,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.56715,43.0,0.2,0.4,OK
+Danmini_Doorbell,current window plus causal history,1,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0009166666666666666,0.6,5,3,0.5922,1.0,0.4,0.6,OK
+Danmini_Doorbell,current window plus causal history,1,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.56715,43.0,0.2,0.4,OK
+Danmini_Doorbell,current window plus causal history,1,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.00125,0.6,5,3,0.5922,1.0,0.4,0.6,OK
+Danmini_Doorbell,current window plus causal history,1,mirai,gafgyt,0.001,oracle,True,0.001,0.001,0.6,5,3,0.5922,1.0,0.4,0.6,OK
+Danmini_Doorbell,current window plus causal history,1,mirai,gafgyt,0.001,source,True,0.0009895833333333334,0.0015833333333333333,1.0,5,5,0.99845,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,1,mirai,gafgyt,0.003,oracle,True,0.003,0.003,1.0,5,5,0.99875,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,1,mirai,gafgyt,0.003,source,True,0.003,0.0030833333333333333,1.0,5,5,0.99885,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,1,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.57375,3.0,0.6,0.6,OK
+Ecobee_Thermostat,current window only,1,mirai,gafgyt,0.0001,source,True,9.375e-05,8.333333333333333e-05,0.6,5,3,0.59015,2.0,0.6,0.6,OK
+Ecobee_Thermostat,current window only,1,mirai,gafgyt,0.0003,oracle,True,0.00016666666666666666,0.00016666666666666666,1.0,5,5,0.99515,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,1,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,8.333333333333333e-05,0.8,5,4,0.5923,2.0,0.6,0.6,OK
+Ecobee_Thermostat,current window only,1,mirai,gafgyt,0.001,oracle,True,0.0006666666666666666,0.0006666666666666666,1.0,5,5,0.99525,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,1,mirai,gafgyt,0.001,source,True,0.0009791666666666666,8.333333333333333e-05,1.0,5,5,0.9936,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,1,mirai,gafgyt,0.003,oracle,True,0.003,0.003,1.0,5,5,0.99565,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,1,mirai,gafgyt,0.003,source,True,0.0029895833333333332,0.0025,1.0,5,5,0.99565,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,1,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.5912,2.0,0.4,0.6,OK
+Ecobee_Thermostat,current window plus causal history,1,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0009166666666666666,1.0,5,5,0.9985,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,1,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.59145,2.0,0.4,0.6,OK
+Ecobee_Thermostat,current window plus causal history,1,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.001,1.0,5,5,0.99855,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,1,mirai,gafgyt,0.001,oracle,True,0.001,0.001,1.0,5,5,0.9985,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,1,mirai,gafgyt,0.001,source,True,0.0009791666666666666,0.0016666666666666668,1.0,5,5,0.99865,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,1,mirai,gafgyt,0.003,oracle,True,0.003,0.003,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,1,mirai,gafgyt,0.003,source,True,0.003,0.00275,1.0,5,5,0.9995,1.0,1.0,1.0,OK
+Ennio_Doorbell,current window only,1,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.5475,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,1,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0021666666666666666,0.6,5,3,0.58765,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,1,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.5475,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,1,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.009666666666666667,0.6,5,3,0.5905,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,1,mirai,gafgyt,0.001,oracle,True,0.0008333333333333334,0.0008333333333333334,0.6,5,3,0.58095,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,1,mirai,gafgyt,0.001,source,True,0.0009895833333333334,0.010833333333333334,0.6,5,3,0.5934,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,1,mirai,gafgyt,0.003,oracle,True,0.0023333333333333335,0.0023333333333333335,0.6,5,3,0.5891,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,1,mirai,gafgyt,0.003,source,True,0.003,0.014,1.0,5,5,0.99535,1.0,1.0,1.0,OK
+Ennio_Doorbell,current window plus causal history,1,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.5997,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window plus causal history,1,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0015833333333333333,0.6,5,3,0.59995,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window plus causal history,1,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.5997,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window plus causal history,1,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.00225,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Ennio_Doorbell,current window plus causal history,1,mirai,gafgyt,0.001,oracle,True,0.00075,0.00075,0.6,5,3,0.5998,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window plus causal history,1,mirai,gafgyt,0.001,source,True,0.001,0.008333333333333333,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Ennio_Doorbell,current window plus causal history,1,mirai,gafgyt,0.003,oracle,True,0.002916666666666667,0.002916666666666667,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Ennio_Doorbell,current window plus causal history,1,mirai,gafgyt,0.003,source,True,0.003,0.011583333333333333,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,1,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.46135,144.0,0.0,0.2,OK
+Philips_B120N10_Baby_Monitor,current window only,1,mirai,gafgyt,0.0001,source,True,9.375e-05,0.008833333333333334,1.0,5,5,0.9917,2.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,1,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.52275,139.0,0.0,0.2,OK
+Philips_B120N10_Baby_Monitor,current window only,1,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.009666666666666667,1.0,5,5,0.99245,2.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,1,mirai,gafgyt,0.001,oracle,True,0.0009166666666666666,0.0009166666666666666,0.6,5,3,0.55805,3.0,0.6,0.6,OK
+Philips_B120N10_Baby_Monitor,current window only,1,mirai,gafgyt,0.001,source,True,0.0009895833333333334,0.010333333333333333,1.0,5,5,0.99395,2.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,1,mirai,gafgyt,0.003,oracle,True,0.003,0.003,0.8,5,4,0.58115,5.5,0.6,0.6,OK
+Philips_B120N10_Baby_Monitor,current window only,1,mirai,gafgyt,0.003,source,True,0.003,0.05658333333333333,1.0,5,5,0.99545,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,1,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.59595,3.0,0.6,0.6,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,1,mirai,gafgyt,0.0001,source,True,9.375e-05,0.004416666666666667,1.0,5,5,0.999,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,1,mirai,gafgyt,0.0003,oracle,False,0.0,0.0,0.6,5,3,0.59595,3.0,0.6,0.6,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,1,mirai,gafgyt,0.0003,source,True,0.00026041666666666666,0.004416666666666667,1.0,5,5,0.999,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,1,mirai,gafgyt,0.001,oracle,True,0.0006666666666666666,0.0006666666666666666,0.6,5,3,0.59595,3.0,0.6,0.6,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,1,mirai,gafgyt,0.001,source,True,0.001,0.005916666666666666,1.0,5,5,0.99905,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,1,mirai,gafgyt,0.003,oracle,True,0.0023333333333333335,0.0023333333333333335,0.6,5,3,0.59725,3.0,0.6,0.6,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,1,mirai,gafgyt,0.003,source,True,0.003,0.01325,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,1,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.58235,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,1,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0004166666666666667,0.6,5,3,0.5863,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,1,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.5827,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,1,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.0011666666666666668,0.6,5,3,0.58715,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,1,mirai,gafgyt,0.001,oracle,True,0.0008333333333333334,0.0008333333333333334,0.6,5,3,0.5869,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,1,mirai,gafgyt,0.001,source,True,0.0008541666666666667,0.0016666666666666668,0.6,5,3,0.5913,2.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,1,mirai,gafgyt,0.003,oracle,True,0.003,0.003,0.6,5,3,0.59585,2.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,1,mirai,gafgyt,0.003,source,True,0.003,0.003916666666666666,1.0,5,5,0.9956,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.51425,23.0,0.2,0.4,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.0001,source,True,5.208333333333334e-05,0.00125,0.6,5,3,0.59855,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.51455,23.0,0.2,0.4,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.0003,source,True,0.00028125,0.00125,0.6,5,3,0.5997,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.001,oracle,True,0.001,0.001,0.6,5,3,0.5971,3.0,0.4,0.6,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.001,source,True,0.0009895833333333334,0.0015,0.6,5,3,0.5998,2.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9997,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.003,source,True,0.003,0.0028333333333333335,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window only,1,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.0,5,0,0.0,,0.0,0.0,OK
+Provision_PT_838_Security_Camera,current window only,1,mirai,gafgyt,0.0001,source,True,8.333333333333333e-05,0.004916666666666666,0.6,5,3,0.5899,2.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window only,1,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.40805,162.0,0.0,0.2,OK
+Provision_PT_838_Security_Camera,current window only,1,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.00725,0.6,5,3,0.5927,2.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window only,1,mirai,gafgyt,0.001,oracle,True,0.001,0.001,0.6,5,3,0.5556,3.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window only,1,mirai,gafgyt,0.001,source,True,0.0009895833333333334,0.010416666666666666,0.6,5,3,0.5946,2.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window only,1,mirai,gafgyt,0.003,oracle,True,0.003,0.003,0.6,5,3,0.5848,2.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window only,1,mirai,gafgyt,0.003,source,True,0.002895833333333333,0.03933333333333333,0.8,5,4,0.59555,2.5,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.59595,3.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.0001,source,True,9.375e-05,0.00016666666666666666,0.6,5,3,0.596,2.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.5962,2.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.0003,source,True,0.0002708333333333333,0.00025,0.6,5,3,0.59625,2.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.001,oracle,True,0.001,0.001,1.0,5,5,0.99875,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.001,source,True,0.0009895833333333334,0.0005833333333333334,1.0,5,5,0.99865,2.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9989,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.003,source,True,0.0029895833333333332,0.00175,1.0,5,5,0.9988,1.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window only,1,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.59035,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window only,1,mirai,gafgyt,0.0001,source,True,7.291666666666667e-05,0.0,0.6,5,3,0.5878,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window only,1,mirai,gafgyt,0.0003,oracle,True,0.00016666666666666666,0.00016666666666666666,0.6,5,3,0.5905,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window only,1,mirai,gafgyt,0.0003,source,True,0.0002708333333333333,0.0,0.6,5,3,0.58905,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window only,1,mirai,gafgyt,0.001,oracle,True,0.001,0.001,1.0,5,5,0.9939,1.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window only,1,mirai,gafgyt,0.001,source,True,0.0009895833333333334,0.0005833333333333334,0.8,5,4,0.5924,1.0,0.8,0.8,OK
+Samsung_SNH_1011_N_Webcam,current window only,1,mirai,gafgyt,0.003,oracle,True,0.00275,0.00275,1.0,5,5,0.99445,1.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window only,1,mirai,gafgyt,0.003,source,True,0.003,0.001,1.0,5,5,0.9939,1.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,1,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.99915,2.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,1,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0,0.6,5,3,0.59995,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,1,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.99915,2.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,1,mirai,gafgyt,0.0003,source,True,0.00023958333333333332,0.00025,1.0,5,5,0.99915,2.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,1,mirai,gafgyt,0.001,oracle,True,0.001,0.001,1.0,5,5,0.99935,1.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,1,mirai,gafgyt,0.001,source,True,0.001,0.0006666666666666666,1.0,5,5,0.99925,1.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,1,mirai,gafgyt,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9995,1.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,1,mirai,gafgyt,0.003,source,True,0.003,0.00175,1.0,5,5,0.9994,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.2,5,1,0.0066,12.0,0.0,0.2,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,mirai,gafgyt,0.0001,source,True,9.375e-05,0.016166666666666666,0.6,5,3,0.59095,2.0,0.6,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,mirai,gafgyt,0.0003,oracle,True,0.00016666666666666666,0.00016666666666666666,0.6,5,3,0.48625,6.0,0.4,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.04416666666666667,0.6,5,3,0.59305,2.0,0.6,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,mirai,gafgyt,0.001,oracle,True,0.0009166666666666666,0.0009166666666666666,0.6,5,3,0.5024,6.0,0.4,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,mirai,gafgyt,0.001,source,True,0.0009583333333333333,0.04783333333333333,0.6,5,3,0.59475,2.0,0.6,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,mirai,gafgyt,0.003,oracle,True,0.003,0.003,0.6,5,3,0.5821,2.0,0.6,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,mirai,gafgyt,0.003,source,True,0.0027916666666666667,0.050916666666666666,0.6,5,3,0.59545,2.0,0.6,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.55295,6.0,0.4,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.0001,source,True,9.375e-05,0.041916666666666665,0.6,5,3,0.5989,1.0,0.6,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.0003,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.55295,6.0,0.4,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.043583333333333335,0.6,5,3,0.5993,1.0,0.6,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.55295,6.0,0.4,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.001,source,True,0.001,0.04566666666666667,1.0,5,5,0.99925,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.003,oracle,True,0.0015833333333333333,0.0015833333333333333,0.6,5,3,0.55295,6.0,0.4,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.003,source,True,0.002979166666666667,0.04658333333333333,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.5942,2.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0,0.6,5,3,0.5883,3.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,mirai,gafgyt,0.0003,oracle,False,0.0,0.0,0.6,5,3,0.5942,2.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,mirai,gafgyt,0.0003,source,True,0.00028125,0.0,0.6,5,3,0.59025,2.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,mirai,gafgyt,0.001,oracle,True,0.001,0.001,0.8,5,4,0.5958,1.5,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,mirai,gafgyt,0.001,source,True,0.0009895833333333334,0.0,0.6,5,3,0.593,2.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,mirai,gafgyt,0.003,oracle,True,0.003,0.003,0.8,5,4,0.5964,1.5,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,mirai,gafgyt,0.003,source,True,0.003,0.0008333333333333334,0.8,5,4,0.5957,1.5,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.59505,4.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.0001,source,True,9.375e-05,0.001,0.8,5,4,0.59875,3.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.0003,oracle,False,0.0,0.0,0.6,5,3,0.59505,4.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.001,0.8,5,4,0.59885,3.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.001,oracle,True,0.001,0.001,0.8,5,4,0.59875,3.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.001,source,True,0.001,0.00225,1.0,5,5,0.99855,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9986,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,mirai,gafgyt,0.003,source,True,0.003,0.004666666666666667,1.0,5,5,0.99875,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,2,gafgyt,mirai,0.0001,oracle,False,0.0,0.0,1.0,5,5,0.4138,4.0,0.6,0.8,OK
+Danmini_Doorbell,current window only,2,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0005,1.0,5,5,0.8485,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,2,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.4618,4.0,0.8,1.0,OK
+Danmini_Doorbell,current window only,2,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.0021666666666666666,1.0,5,5,0.955,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,2,gafgyt,mirai,0.001,oracle,True,0.0005,0.0005,1.0,5,5,0.8477,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,2,gafgyt,mirai,0.001,source,True,0.001,0.006666666666666667,1.0,5,5,0.97295,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,2,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9592,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,2,gafgyt,mirai,0.003,source,True,0.003,0.0135,1.0,5,5,0.97825,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,2,gafgyt,mirai,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.401,1.0,0.4,0.4,OK
+Danmini_Doorbell,current window plus causal history,2,gafgyt,mirai,0.0001,source,True,9.375e-05,0.00225,1.0,5,5,0.64705,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window plus causal history,2,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.55975,1079.0,0.4,0.4,OK
+Danmini_Doorbell,current window plus causal history,2,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.003,1.0,5,5,0.71885,1.0,0.8,0.8,OK
+Danmini_Doorbell,current window plus causal history,2,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.6155,701.0,0.4,0.4,OK
+Danmini_Doorbell,current window plus causal history,2,gafgyt,mirai,0.001,source,True,0.0009895833333333334,0.003916666666666666,1.0,5,5,0.906,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,2,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.7188,1.0,0.8,0.8,OK
+Danmini_Doorbell,current window plus causal history,2,gafgyt,mirai,0.003,source,True,0.003,0.005416666666666667,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,2,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.69945,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,2,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0006666666666666666,1.0,5,5,0.943,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,2,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.80535,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,2,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.00175,1.0,5,5,0.98075,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,2,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.94475,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,2,gafgyt,mirai,0.001,source,True,0.001,0.007333333333333333,1.0,5,5,0.99835,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,2,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9832,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,2,gafgyt,mirai,0.003,source,True,0.0029895833333333332,0.014833333333333334,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,2,gafgyt,mirai,0.0001,oracle,False,0.0,0.0,1.0,5,5,0.6861,1324.0,0.4,0.4,OK
+Ecobee_Thermostat,current window plus causal history,2,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0005,1.0,5,5,0.7226,1.0,0.8,1.0,OK
+Ecobee_Thermostat,current window plus causal history,2,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.72185,1.0,0.8,0.8,OK
+Ecobee_Thermostat,current window plus causal history,2,gafgyt,mirai,0.0003,source,True,0.00028125,0.0011666666666666668,1.0,5,5,0.8786,1.0,0.8,1.0,OK
+Ecobee_Thermostat,current window plus causal history,2,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.87125,1.0,0.8,1.0,OK
+Ecobee_Thermostat,current window plus causal history,2,gafgyt,mirai,0.001,source,True,0.001,0.00225,1.0,5,5,0.95985,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,2,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9983,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,2,gafgyt,mirai,0.003,source,True,0.003,0.00425,1.0,5,5,0.99875,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,2,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.68835,2.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,2,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0013333333333333333,1.0,5,5,0.80815,2.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,2,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.73295,2.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,2,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.0023333333333333335,1.0,5,5,0.91805,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,2,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.8064,2.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,2,gafgyt,mirai,0.001,source,True,0.0009895833333333334,0.021583333333333333,1.0,5,5,0.9988,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,2,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.96845,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,2,gafgyt,mirai,0.003,source,True,0.003,0.04733333333333333,1.0,5,5,0.99975,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,2,gafgyt,mirai,0.0001,oracle,False,0.0,0.0,1.0,5,5,0.4856,1013.0,0.4,0.4,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,2,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0015833333333333333,1.0,5,5,0.91465,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,2,gafgyt,mirai,0.0003,oracle,False,0.0,0.0,1.0,5,5,0.4856,1013.0,0.4,0.4,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,2,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.0018333333333333333,1.0,5,5,0.951,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,2,gafgyt,mirai,0.001,oracle,True,0.0009166666666666666,0.0009166666666666666,1.0,5,5,0.823,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,2,gafgyt,mirai,0.001,source,True,0.001,0.00275,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,2,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,2,gafgyt,mirai,0.003,source,True,0.003,0.00675,1.0,5,5,1.0,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,2,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.39865,25.0,0.4,0.8,OK
+Provision_PT_737E_Security_Camera,current window only,2,gafgyt,mirai,0.0001,source,True,9.375e-05,8.333333333333333e-05,1.0,5,5,0.61,2.0,0.8,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,2,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.6227,2.0,0.8,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,2,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.00025,1.0,5,5,0.7348,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,2,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.9326,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,2,gafgyt,mirai,0.001,source,True,0.001,0.00125,1.0,5,5,0.96465,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,2,gafgyt,mirai,0.003,oracle,True,0.00275,0.00275,1.0,5,5,0.9817,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,2,gafgyt,mirai,0.003,source,True,0.003,0.003833333333333333,1.0,5,5,0.9871,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.0001,oracle,False,0.0,0.0,1.0,5,5,0.55595,861.0,0.4,0.4,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0005833333333333334,1.0,5,5,0.59715,160.0,0.4,0.4,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.5966,861.0,0.4,0.4,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.0015,1.0,5,5,0.86375,3.0,0.6,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.65305,3.0,0.6,0.8,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.001,source,True,0.001,0.0030833333333333333,1.0,5,5,0.87285,3.0,0.6,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.8703,3.0,0.6,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.003,source,True,0.003,0.005666666666666667,1.0,5,5,0.95635,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window only,2,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.14875,920.0,0.2,0.2,OK
+Provision_PT_838_Security_Camera,current window only,2,gafgyt,mirai,0.0001,source,True,9.375e-05,0.009916666666666667,1.0,5,5,0.72155,2.0,0.8,1.0,OK
+Provision_PT_838_Security_Camera,current window only,2,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.4932,7.0,0.6,1.0,OK
+Provision_PT_838_Security_Camera,current window only,2,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.013666666666666667,1.0,5,5,0.7273,1.0,0.8,1.0,OK
+Provision_PT_838_Security_Camera,current window only,2,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.5802,5.0,0.6,1.0,OK
+Provision_PT_838_Security_Camera,current window only,2,gafgyt,mirai,0.001,source,True,0.001,0.029916666666666668,1.0,5,5,0.7461,1.0,0.8,1.0,OK
+Provision_PT_838_Security_Camera,current window only,2,gafgyt,mirai,0.003,oracle,True,0.0015833333333333333,0.0015833333333333333,1.0,5,5,0.6827,5.0,0.6,1.0,OK
+Provision_PT_838_Security_Camera,current window only,2,gafgyt,mirai,0.003,source,True,0.0029895833333333332,0.05483333333333333,1.0,5,5,0.9981,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.592,1.0,0.6,0.8,OK
+Provision_PT_838_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0004166666666666667,1.0,5,5,0.9998,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.9998,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.001,1.0,5,5,0.99985,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.99985,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.001,source,True,0.001,0.002416666666666667,1.0,5,5,0.99985,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9999,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.003,source,True,0.003,0.00425,1.0,5,5,0.99995,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.2,5,1,0.16035,1.0,0.2,0.2,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0905,1.0,5,5,0.39935,1.0,0.6,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,gafgyt,mirai,0.0003,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.2,5,1,0.16035,1.0,0.2,0.2,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.10366666666666667,1.0,5,5,0.4072,1.0,0.6,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,gafgyt,mirai,0.001,oracle,True,0.001,0.001,0.6,5,3,0.16145,910.0,0.2,0.2,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,gafgyt,mirai,0.001,source,True,0.001,0.13933333333333334,1.0,5,5,0.7204,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,gafgyt,mirai,0.003,oracle,True,0.00275,0.00275,0.6,5,3,0.1706,910.0,0.2,0.2,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,gafgyt,mirai,0.003,source,True,0.003,0.17516666666666666,1.0,5,5,0.8506,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.36545,1181.0,0.4,0.4,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.0001,source,True,9.375e-05,0.034416666666666665,1.0,5,5,0.68955,1132.0,0.4,0.4,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.0003,oracle,True,0.00025,0.00025,1.0,5,5,0.52115,1179.0,0.4,0.4,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.03741666666666667,1.0,5,5,0.69655,289.0,0.4,0.4,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.001,oracle,True,0.00025,0.00025,1.0,5,5,0.52115,1179.0,0.4,0.4,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.001,source,True,0.001,0.04416666666666667,1.0,5,5,0.80315,3.0,0.8,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.003,oracle,True,0.00025,0.00025,1.0,5,5,0.52115,1179.0,0.4,0.4,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.003,source,True,0.0029895833333333332,0.0585,1.0,5,5,0.9999,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,gafgyt,mirai,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,1.0,5,5,0.88755,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0004166666666666667,1.0,5,5,0.93345,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,gafgyt,mirai,0.0003,oracle,True,0.00016666666666666666,0.00016666666666666666,1.0,5,5,0.9008,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.001,1.0,5,5,0.9654,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,gafgyt,mirai,0.001,oracle,True,0.001,0.001,1.0,5,5,0.9415,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,gafgyt,mirai,0.001,source,True,0.001,0.00175,1.0,5,5,0.99145,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.99605,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,gafgyt,mirai,0.003,source,True,0.003,0.0065,1.0,5,5,0.999,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.0001,oracle,False,0.0,0.0,1.0,5,5,0.60125,1211.0,0.4,0.4,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.0001,source,True,9.375e-05,0.0006666666666666666,1.0,5,5,0.8253,1.0,0.8,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.0003,oracle,False,0.0,0.0,1.0,5,5,0.60125,1211.0,0.4,0.4,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.0003,source,True,0.0002916666666666667,0.0014166666666666668,1.0,5,5,0.8319,1.0,0.8,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.001,oracle,True,0.00075,0.00075,1.0,5,5,0.8318,1.0,0.8,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.001,source,True,0.001,0.0014166666666666668,1.0,5,5,0.99825,1.0,0.8,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.003,oracle,True,0.003,0.003,1.0,5,5,0.99905,1.0,0.8,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,gafgyt,mirai,0.003,source,True,0.003,0.0035833333333333333,1.0,5,5,0.9995,1.0,0.8,1.0,OK
+Danmini_Doorbell,current window only,2,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.5747,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window only,2,mirai,gafgyt,0.0001,source,True,8.333333333333333e-05,0.00025,0.6,5,3,0.5918,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window only,2,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.5898,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window only,2,mirai,gafgyt,0.0003,source,True,0.00026041666666666666,0.00025,0.6,5,3,0.59215,1.0,0.6,0.6,OK
+Danmini_Doorbell,current window only,2,mirai,gafgyt,0.001,oracle,True,0.001,0.001,1.0,5,5,0.9937,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,2,mirai,gafgyt,0.001,source,True,0.001,0.0005,1.0,5,5,0.9932,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,2,mirai,gafgyt,0.003,oracle,True,0.002916666666666667,0.002916666666666667,1.0,5,5,0.9965,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window only,2,mirai,gafgyt,0.003,source,True,0.002895833333333333,0.0014166666666666668,1.0,5,5,0.9946,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,2,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.5881,42.0,0.2,0.4,OK
+Danmini_Doorbell,current window plus causal history,2,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0009166666666666666,1.0,5,5,0.99875,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,2,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.5921,2.0,0.4,0.6,OK
+Danmini_Doorbell,current window plus causal history,2,mirai,gafgyt,0.0003,source,True,0.00026041666666666666,0.0010833333333333333,1.0,5,5,0.9988,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,2,mirai,gafgyt,0.001,oracle,True,0.0009166666666666666,0.0009166666666666666,0.6,5,3,0.59555,2.0,0.4,0.6,OK
+Danmini_Doorbell,current window plus causal history,2,mirai,gafgyt,0.001,source,True,0.0009895833333333334,0.0015,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,2,mirai,gafgyt,0.003,oracle,True,0.002916666666666667,0.002916666666666667,1.0,5,5,0.9997,1.0,1.0,1.0,OK
+Danmini_Doorbell,current window plus causal history,2,mirai,gafgyt,0.003,source,True,0.0029895833333333332,0.0025,1.0,5,5,0.9997,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,2,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.5808,3.0,0.6,0.6,OK
+Ecobee_Thermostat,current window only,2,mirai,gafgyt,0.0001,source,True,9.375e-05,8.333333333333333e-05,0.6,5,3,0.58895,2.0,0.6,0.6,OK
+Ecobee_Thermostat,current window only,2,mirai,gafgyt,0.0003,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.5808,3.0,0.6,0.6,OK
+Ecobee_Thermostat,current window only,2,mirai,gafgyt,0.0003,source,True,0.00028125,8.333333333333333e-05,0.6,5,3,0.5902,2.0,0.6,0.6,OK
+Ecobee_Thermostat,current window only,2,mirai,gafgyt,0.001,oracle,True,0.001,0.001,1.0,5,5,0.99575,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,2,mirai,gafgyt,0.001,source,True,0.001,8.333333333333333e-05,1.0,5,5,0.59345,3.0,0.6,0.6,OK
+Ecobee_Thermostat,current window only,2,mirai,gafgyt,0.003,oracle,True,0.002916666666666667,0.002916666666666667,1.0,5,5,0.9964,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window only,2,mirai,gafgyt,0.003,source,True,0.002979166666666667,0.0003333333333333333,1.0,5,5,0.9948,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,2,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.5959,2.0,0.4,0.6,OK
+Ecobee_Thermostat,current window plus causal history,2,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0009166666666666666,1.0,5,5,0.99855,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,2,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.5987,2.0,0.6,0.6,OK
+Ecobee_Thermostat,current window plus causal history,2,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.0013333333333333333,1.0,5,5,0.99855,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,2,mirai,gafgyt,0.001,oracle,True,0.001,0.001,1.0,5,5,0.99855,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,2,mirai,gafgyt,0.001,source,True,0.0009270833333333334,0.002,1.0,5,5,0.99865,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,2,mirai,gafgyt,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9995,1.0,1.0,1.0,OK
+Ecobee_Thermostat,current window plus causal history,2,mirai,gafgyt,0.003,source,True,0.003,0.0031666666666666666,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Ennio_Doorbell,current window only,2,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.55615,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,2,mirai,gafgyt,0.0001,source,True,9.375e-05,0.00425,0.6,5,3,0.59005,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,2,mirai,gafgyt,0.0003,oracle,True,0.00016666666666666666,0.00016666666666666666,0.6,5,3,0.55615,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,2,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.008416666666666666,0.6,5,3,0.59125,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,2,mirai,gafgyt,0.001,oracle,True,0.0009166666666666666,0.0009166666666666666,0.6,5,3,0.5854,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,2,mirai,gafgyt,0.001,source,True,0.00096875,0.011916666666666667,0.6,5,3,0.5943,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,2,mirai,gafgyt,0.003,oracle,True,0.00175,0.00175,0.6,5,3,0.5885,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window only,2,mirai,gafgyt,0.003,source,True,0.003,0.013833333333333333,1.0,5,5,0.9952,1.0,1.0,1.0,OK
+Ennio_Doorbell,current window plus causal history,2,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.5905,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window plus causal history,2,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0016666666666666668,0.6,5,3,0.5984,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window plus causal history,2,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.5905,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window plus causal history,2,mirai,gafgyt,0.0003,source,True,0.00028125,0.0021666666666666666,0.6,5,3,0.6,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window plus causal history,2,mirai,gafgyt,0.001,oracle,True,0.00075,0.00075,0.6,5,3,0.59255,1.0,0.6,0.6,OK
+Ennio_Doorbell,current window plus causal history,2,mirai,gafgyt,0.001,source,True,0.001,0.004833333333333334,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Ennio_Doorbell,current window plus causal history,2,mirai,gafgyt,0.003,oracle,True,0.00275,0.00275,1.0,5,5,0.99965,1.0,1.0,1.0,OK
+Ennio_Doorbell,current window plus causal history,2,mirai,gafgyt,0.003,source,True,0.00296875,0.011333333333333334,1.0,5,5,0.9997,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,2,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.51945,139.0,0.0,0.2,OK
+Philips_B120N10_Baby_Monitor,current window only,2,mirai,gafgyt,0.0001,source,True,9.375e-05,0.008583333333333333,0.8,5,4,0.5909,6.0,0.6,0.6,OK
+Philips_B120N10_Baby_Monitor,current window only,2,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.52475,139.0,0.0,0.2,OK
+Philips_B120N10_Baby_Monitor,current window only,2,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.009333333333333334,1.0,5,5,0.99135,2.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,2,mirai,gafgyt,0.001,oracle,True,0.001,0.001,0.6,5,3,0.53925,11.0,0.2,0.6,OK
+Philips_B120N10_Baby_Monitor,current window only,2,mirai,gafgyt,0.001,source,True,0.0009895833333333334,0.01225,1.0,5,5,0.9934,2.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window only,2,mirai,gafgyt,0.003,oracle,True,0.003,0.003,0.8,5,4,0.5809,6.5,0.4,0.6,OK
+Philips_B120N10_Baby_Monitor,current window only,2,mirai,gafgyt,0.003,source,True,0.0029895833333333332,0.03475,1.0,5,5,0.99475,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,2,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.59585,3.0,0.6,0.6,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,2,mirai,gafgyt,0.0001,source,True,9.375e-05,0.004,1.0,5,5,0.9974,2.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,2,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.59585,3.0,0.6,0.6,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,2,mirai,gafgyt,0.0003,source,True,0.00028125,0.004416666666666667,1.0,5,5,0.9988,2.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,2,mirai,gafgyt,0.001,oracle,True,0.0006666666666666666,0.0006666666666666666,0.6,5,3,0.59595,3.0,0.6,0.6,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,2,mirai,gafgyt,0.001,source,True,0.001,0.005,1.0,5,5,0.9991,1.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,2,mirai,gafgyt,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9959,2.0,1.0,1.0,OK
+Philips_B120N10_Baby_Monitor,current window plus causal history,2,mirai,gafgyt,0.003,source,True,0.0029895833333333332,0.008333333333333333,1.0,5,5,0.9992,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,2,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.58035,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,2,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0003333333333333333,0.6,5,3,0.5849,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,2,mirai,gafgyt,0.0003,oracle,True,0.00016666666666666666,0.00016666666666666666,0.6,5,3,0.58035,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,2,mirai,gafgyt,0.0003,source,True,0.00028125,0.001,0.6,5,3,0.5886,2.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,2,mirai,gafgyt,0.001,oracle,True,0.001,0.001,0.6,5,3,0.5886,2.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,2,mirai,gafgyt,0.001,source,True,0.0009895833333333334,0.0013333333333333333,0.6,5,3,0.5905,2.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window only,2,mirai,gafgyt,0.003,oracle,True,0.0028333333333333335,0.0028333333333333335,1.0,5,5,0.99295,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window only,2,mirai,gafgyt,0.003,source,True,0.003,0.0030833333333333333,1.0,5,5,0.99345,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.41255,34.0,0.2,0.4,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0010833333333333333,0.6,5,3,0.59575,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.41255,34.0,0.2,0.4,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.00125,0.6,5,3,0.59615,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.001,oracle,True,0.001,0.001,0.6,5,3,0.5953,3.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.001,source,True,0.001,0.0014166666666666668,0.6,5,3,0.59705,1.0,0.6,0.6,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9987,1.0,1.0,1.0,OK
+Provision_PT_737E_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.003,source,True,0.003,0.0031666666666666666,1.0,5,5,0.99875,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window only,2,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.4,5,2,0.0041,460.5,0.0,0.0,OK
+Provision_PT_838_Security_Camera,current window only,2,mirai,gafgyt,0.0001,source,True,9.375e-05,0.00475,0.6,5,3,0.59045,2.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window only,2,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.40805,162.0,0.0,0.2,OK
+Provision_PT_838_Security_Camera,current window only,2,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.005333333333333333,0.8,5,4,0.5916,2.5,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window only,2,mirai,gafgyt,0.001,oracle,True,0.0009166666666666666,0.0009166666666666666,0.6,5,3,0.5593,3.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window only,2,mirai,gafgyt,0.001,source,True,0.0009583333333333333,0.00925,0.8,5,4,0.59435,2.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window only,2,mirai,gafgyt,0.003,oracle,True,0.0028333333333333335,0.0028333333333333335,0.6,5,3,0.58815,2.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window only,2,mirai,gafgyt,0.003,source,True,0.003,0.012,1.0,5,5,0.9958,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.5854,3.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.0001,source,True,9.375e-05,8.333333333333333e-05,0.6,5,3,0.59725,3.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.59785,2.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.0003,source,True,0.00026041666666666666,8.333333333333333e-05,0.6,5,3,0.59735,3.0,0.6,0.6,OK
+Provision_PT_838_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.001,oracle,True,0.001,0.001,1.0,5,5,0.99885,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.001,source,True,0.001,0.0005,1.0,5,5,0.9987,2.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.003,oracle,True,0.00275,0.00275,1.0,5,5,0.999,1.0,1.0,1.0,OK
+Provision_PT_838_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.003,source,True,0.003,0.0010833333333333333,1.0,5,5,0.99895,1.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window only,2,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.5905,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window only,2,mirai,gafgyt,0.0001,source,True,7.291666666666667e-05,0.0,0.6,5,3,0.5882,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window only,2,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.6,5,3,0.59275,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window only,2,mirai,gafgyt,0.0003,source,True,0.00028125,8.333333333333333e-05,0.6,5,3,0.5906,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window only,2,mirai,gafgyt,0.001,oracle,True,0.0009166666666666666,0.0009166666666666666,1.0,5,5,0.99425,2.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window only,2,mirai,gafgyt,0.001,source,True,0.001,0.0005833333333333334,0.6,5,3,0.5939,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window only,2,mirai,gafgyt,0.003,oracle,True,0.0011666666666666668,0.0011666666666666668,1.0,5,5,0.99445,1.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window only,2,mirai,gafgyt,0.003,source,True,0.003,0.15216666666666667,1.0,5,5,0.99485,1.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,2,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.6,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,2,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0,0.6,5,3,0.59995,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,2,mirai,gafgyt,0.0003,oracle,True,0.00016666666666666666,0.00016666666666666666,0.6,5,3,0.6,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,2,mirai,gafgyt,0.0003,source,True,0.00025,0.0003333333333333333,0.6,5,3,0.6,1.0,0.6,0.6,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,2,mirai,gafgyt,0.001,oracle,True,0.001,0.001,1.0,5,5,0.99925,1.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,2,mirai,gafgyt,0.001,source,True,0.001,0.0005,1.0,5,5,0.99925,1.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,2,mirai,gafgyt,0.003,oracle,True,0.0028333333333333335,0.0028333333333333335,1.0,5,5,0.9994,1.0,1.0,1.0,OK
+Samsung_SNH_1011_N_Webcam,current window plus causal history,2,mirai,gafgyt,0.003,source,True,0.003,0.00175,1.0,5,5,0.9993,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.17115,12.0,0.2,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,mirai,gafgyt,0.0001,source,True,9.375e-05,0.04125,0.6,5,3,0.58865,2.0,0.6,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,mirai,gafgyt,0.0003,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.17115,12.0,0.2,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,mirai,gafgyt,0.0003,source,True,0.00028125,0.042166666666666665,0.6,5,3,0.58965,2.0,0.6,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,mirai,gafgyt,0.001,oracle,True,0.001,0.001,0.6,5,3,0.5028,6.0,0.4,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,mirai,gafgyt,0.001,source,True,0.00096875,0.04758333333333333,1.0,5,5,0.9923,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,mirai,gafgyt,0.003,oracle,True,0.003,0.003,0.6,5,3,0.5806,2.0,0.6,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,mirai,gafgyt,0.003,source,True,0.0026770833333333334,0.05,1.0,5,5,0.9949,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.5331,6.0,0.4,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.0001,source,True,8.333333333333333e-05,0.04175,0.6,5,3,0.5981,1.0,0.6,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.0003,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.6,5,3,0.5331,6.0,0.4,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.043583333333333335,1.0,5,5,0.99865,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.001,oracle,True,0.0005833333333333334,0.0005833333333333334,0.6,5,3,0.5531,6.0,0.4,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.001,source,True,0.001,0.050583333333333334,1.0,5,5,0.99935,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.003,oracle,True,0.002916666666666667,0.002916666666666667,0.6,5,3,0.5652,6.0,0.4,0.6,OK
+SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.003,source,True,0.003,0.050916666666666666,1.0,5,5,0.9997,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,mirai,gafgyt,0.0001,oracle,True,8.333333333333333e-05,8.333333333333333e-05,0.8,5,4,0.5891,3.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,mirai,gafgyt,0.0001,source,True,9.375e-05,0.0,0.6,5,3,0.58445,3.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,mirai,gafgyt,0.0003,oracle,True,0.00025,0.00025,0.8,5,4,0.59,2.5,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,mirai,gafgyt,0.0003,source,True,0.00028125,0.0,0.6,5,3,0.5885,3.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,mirai,gafgyt,0.001,oracle,True,0.00075,0.00075,0.8,5,4,0.5923,1.5,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,mirai,gafgyt,0.001,source,True,0.0009895833333333334,0.00025,0.8,5,4,0.5909,2.5,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,mirai,gafgyt,0.003,oracle,True,0.0025,0.0025,0.8,5,4,0.5966,1.5,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,mirai,gafgyt,0.003,source,True,0.002979166666666667,0.00175,0.8,5,4,0.59535,1.5,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.0001,oracle,False,0.0,0.0,0.6,5,3,0.594,4.0,0.4,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.0001,source,True,8.333333333333333e-05,0.00075,0.8,5,4,0.59905,3.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.0003,oracle,False,0.0,0.0,0.6,5,3,0.594,4.0,0.4,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.0003,source,True,0.0002916666666666667,0.0010833333333333333,0.8,5,4,0.59905,3.0,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.001,oracle,True,0.00075,0.00075,0.8,5,4,0.5989,3.5,0.6,0.6,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.001,source,True,0.001,0.002,1.0,5,5,0.9986,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.003,oracle,True,0.003,0.003,1.0,5,5,0.9989,1.0,1.0,1.0,OK
+SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,mirai,gafgyt,0.003,source,True,0.002947916666666667,0.004083333333333333,1.0,5,5,0.99955,1.0,1.0,1.0,OK

@@ -1,0 +1,925 @@
+protocol,held_out,condition,seed,false_alert_budget,calibration,nominal_attainable,realised_rate_eval,realised_rate_all,campaign_recall,campaigns_detected,campaigns,row_recall
+leave-one-device-out,Danmini_Doorbell,current window only,0,0.0001,target_same,False,0.0,0.0,1.0,10,10,0.99975
+leave-one-device-out,Danmini_Doorbell,current window only,0,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.99975
+leave-one-device-out,Danmini_Doorbell,current window only,0,0.0003,target_same,True,0.0003333333333333333,0.00025,1.0,10,10,0.9998
+leave-one-device-out,Danmini_Doorbell,current window only,0,0.0003,target_disjoint,True,0.00016666666666666666,0.00016666666666666666,1.0,10,10,0.99975
+leave-one-device-out,Danmini_Doorbell,current window only,0,0.001,target_same,True,0.0013333333333333333,0.0008333333333333334,1.0,10,10,0.999925
+leave-one-device-out,Danmini_Doorbell,current window only,0,0.001,target_disjoint,True,0.0015,0.0011666666666666668,1.0,10,10,0.999925
+leave-one-device-out,Danmini_Doorbell,current window only,0,0.003,target_same,True,0.003,0.0025,1.0,10,10,0.999925
+leave-one-device-out,Danmini_Doorbell,current window only,0,0.003,target_disjoint,True,0.004666666666666667,0.003833333333333333,1.0,10,10,0.99995
+leave-one-device-out,Danmini_Doorbell,current window only,0,0.005,target_same,True,0.005833333333333334,0.004583333333333333,1.0,10,10,0.99995
+leave-one-device-out,Danmini_Doorbell,current window only,0,0.005,target_disjoint,True,0.0075,0.00625,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window only,0,0.01,target_same,True,0.011833333333333333,0.01,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window only,0,0.01,target_disjoint,True,0.012333333333333333,0.011083333333333334,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window only,0,0.05,target_same,True,0.04766666666666667,0.04641666666666667,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window only,0,0.05,target_disjoint,True,0.04766666666666667,0.04641666666666667,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,0,0.0001,target_same,False,0.0,0.0,1.0,10,10,0.99995
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,0,0.0001,target_disjoint,False,0.0003333333333333333,0.00016666666666666666,1.0,10,10,0.99995
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,0,0.0003,target_same,True,0.0003333333333333333,0.00016666666666666666,1.0,10,10,0.99995
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,0,0.0003,target_disjoint,False,0.0003333333333333333,0.00016666666666666666,1.0,10,10,0.99995
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,0,0.001,target_same,True,0.0015,0.001,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,0,0.001,target_disjoint,True,0.004666666666666667,0.0028333333333333335,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,0,0.003,target_same,True,0.004833333333333334,0.003,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,0,0.003,target_disjoint,True,0.008,0.0055,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,0,0.005,target_same,True,0.007333333333333333,0.005,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,0,0.005,target_disjoint,True,0.015333333333333332,0.010166666666666666,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,0,0.01,target_same,True,0.015166666666666667,0.009916666666666667,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,0,0.01,target_disjoint,True,0.02033333333333333,0.015166666666666667,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,0,0.05,target_same,True,0.058166666666666665,0.05,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,0,0.05,target_disjoint,True,0.06616666666666667,0.058,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window only,0,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.99945
+leave-one-device-out,Ecobee_Thermostat,current window only,0,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.99945
+leave-one-device-out,Ecobee_Thermostat,current window only,0,0.0003,target_same,True,0.0,0.00025,1.0,10,10,0.9999
+leave-one-device-out,Ecobee_Thermostat,current window only,0,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.99945
+leave-one-device-out,Ecobee_Thermostat,current window only,0,0.001,target_same,True,0.0005,0.001,1.0,10,10,0.9999
+leave-one-device-out,Ecobee_Thermostat,current window only,0,0.001,target_disjoint,True,0.0003333333333333333,0.0006666666666666666,1.0,10,10,0.9999
+leave-one-device-out,Ecobee_Thermostat,current window only,0,0.003,target_same,True,0.0016666666666666668,0.002916666666666667,1.0,10,10,0.9999
+leave-one-device-out,Ecobee_Thermostat,current window only,0,0.003,target_disjoint,True,0.0011666666666666668,0.0020833333333333333,1.0,10,10,0.9999
+leave-one-device-out,Ecobee_Thermostat,current window only,0,0.005,target_same,True,0.0028333333333333335,0.004333333333333333,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window only,0,0.005,target_disjoint,True,0.0021666666666666666,0.0035833333333333333,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window only,0,0.01,target_same,True,0.008833333333333334,0.01,1.0,10,10,0.99995
+leave-one-device-out,Ecobee_Thermostat,current window only,0,0.01,target_disjoint,True,0.008166666666666666,0.009083333333333334,1.0,10,10,0.99995
+leave-one-device-out,Ecobee_Thermostat,current window only,0,0.05,target_same,True,0.051,0.05,1.0,10,10,0.999975
+leave-one-device-out,Ecobee_Thermostat,current window only,0,0.05,target_disjoint,True,0.0515,0.05075,1.0,10,10,0.999975
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,0,0.0001,target_same,False,0.0,0.0,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,0,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,0,0.0003,target_same,True,0.0,0.00025,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,0,0.0003,target_disjoint,False,0.0,0.0,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,0,0.001,target_same,True,0.0,0.001,1.0,10,10,0.999975
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,0,0.001,target_disjoint,True,0.0,0.0005,1.0,10,10,0.99995
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,0,0.003,target_same,True,0.0003333333333333333,0.003,1.0,10,10,0.999975
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,0,0.003,target_disjoint,True,0.0,0.0015,1.0,10,10,0.999975
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,0,0.005,target_same,True,0.0005,0.004916666666666666,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,0,0.005,target_disjoint,True,0.0003333333333333333,0.0026666666666666666,1.0,10,10,0.999975
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,0,0.01,target_same,True,0.0035,0.01,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,0,0.01,target_disjoint,True,0.0006666666666666666,0.005333333333333333,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,0,0.05,target_same,True,0.04833333333333333,0.0495,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,0,0.05,target_disjoint,True,0.04766666666666667,0.04883333333333333,1.0,10,10,1.0
+leave-one-device-out,Ennio_Doorbell,current window only,0,0.0001,target_same,False,0.0,0.0,1.0,5,5,0.9997
+leave-one-device-out,Ennio_Doorbell,current window only,0,0.0001,target_disjoint,False,0.0,0.0,1.0,5,5,0.9997
+leave-one-device-out,Ennio_Doorbell,current window only,0,0.0003,target_same,True,0.0003333333333333333,0.00025,1.0,5,5,0.9997
+leave-one-device-out,Ennio_Doorbell,current window only,0,0.0003,target_disjoint,True,0.0003333333333333333,0.00025,1.0,5,5,0.9997
+leave-one-device-out,Ennio_Doorbell,current window only,0,0.001,target_same,True,0.0015,0.0009166666666666666,1.0,5,5,0.9998
+leave-one-device-out,Ennio_Doorbell,current window only,0,0.001,target_disjoint,True,0.0021666666666666666,0.0015833333333333333,1.0,5,5,0.9999
+leave-one-device-out,Ennio_Doorbell,current window only,0,0.003,target_same,True,0.0035,0.0028333333333333335,1.0,5,5,0.9999
+leave-one-device-out,Ennio_Doorbell,current window only,0,0.003,target_disjoint,True,0.003833333333333333,0.003416666666666667,1.0,5,5,0.9999
+leave-one-device-out,Ennio_Doorbell,current window only,0,0.005,target_same,True,0.004833333333333334,0.004583333333333333,1.0,5,5,0.9999
+leave-one-device-out,Ennio_Doorbell,current window only,0,0.005,target_disjoint,True,0.004833333333333334,0.004583333333333333,1.0,5,5,0.9999
+leave-one-device-out,Ennio_Doorbell,current window only,0,0.01,target_same,True,0.011166666666666667,0.01,1.0,5,5,0.9999
+leave-one-device-out,Ennio_Doorbell,current window only,0,0.01,target_disjoint,True,0.0115,0.01075,1.0,5,5,0.9999
+leave-one-device-out,Ennio_Doorbell,current window only,0,0.05,target_same,True,0.03766666666666667,0.046,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window only,0,0.05,target_disjoint,True,0.036333333333333336,0.04275,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,0,0.0001,target_same,False,0.0,0.0,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,0,0.0001,target_disjoint,False,0.0,0.0,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,0,0.0003,target_same,True,0.00016666666666666666,0.00025,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,0,0.0003,target_disjoint,False,0.0,0.0,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,0,0.001,target_same,True,0.0011666666666666668,0.001,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,0,0.001,target_disjoint,True,0.0011666666666666668,0.0010833333333333333,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,0,0.003,target_same,True,0.0035,0.002916666666666667,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,0,0.003,target_disjoint,True,0.004166666666666667,0.0035833333333333333,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,0,0.005,target_same,True,0.005333333333333333,0.004666666666666667,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,0,0.005,target_disjoint,True,0.0075,0.00625,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,0,0.01,target_same,True,0.012,0.009666666666666667,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,0,0.01,target_disjoint,True,0.016,0.013,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,0,0.05,target_same,True,0.06333333333333334,0.0495,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,0,0.05,target_disjoint,True,0.09183333333333334,0.07091666666666667,1.0,5,5,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,0,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.99625
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,0,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.99625
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,0,0.0003,target_same,True,0.0,0.00025,1.0,10,10,0.997275
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,0,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.99625
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,0,0.001,target_same,True,0.0,0.001,1.0,10,10,0.997425
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,0,0.001,target_disjoint,True,0.0,0.0005,1.0,10,10,0.99735
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,0,0.003,target_same,True,0.0003333333333333333,0.003,1.0,10,10,0.99985
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,0,0.003,target_disjoint,True,0.0,0.0015,1.0,10,10,0.997875
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,0,0.005,target_same,True,0.0025,0.005,1.0,10,10,0.999925
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,0,0.005,target_disjoint,True,0.0,0.0025,1.0,10,10,0.99945
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,0,0.01,target_same,True,0.008,0.009916666666666667,1.0,10,10,0.99995
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,0,0.01,target_disjoint,True,0.006666666666666667,0.008333333333333333,1.0,10,10,0.99995
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,0,0.05,target_same,True,0.03666666666666667,0.05,1.0,10,10,0.999975
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,0,0.05,target_disjoint,True,0.030333333333333334,0.04016666666666667,1.0,10,10,0.999975
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,0,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.999925
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,0,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.999925
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,0,0.0003,target_same,True,0.0,0.00025,1.0,10,10,0.999925
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,0,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.999925
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,0,0.001,target_same,True,0.0006666666666666666,0.001,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,0,0.001,target_disjoint,True,0.0006666666666666666,0.00075,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,0,0.003,target_same,True,0.0018333333333333333,0.002416666666666667,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,0,0.003,target_disjoint,True,0.0018333333333333333,0.002416666666666667,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,0,0.005,target_same,True,0.0023333333333333335,0.005,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,0,0.005,target_disjoint,True,0.0018333333333333333,0.003416666666666667,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,0,0.01,target_same,True,0.008166666666666666,0.01,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,0,0.01,target_disjoint,True,0.003,0.0065,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,0,0.05,target_same,True,0.0575,0.05,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,0,0.05,target_disjoint,True,0.068,0.059,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,0,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.997175
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,0,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.997175
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,0,0.0003,target_same,True,0.00016666666666666666,0.00016666666666666666,1.0,10,10,0.99985
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,0,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.997175
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,0,0.001,target_same,True,0.0008333333333333334,0.001,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,0,0.001,target_disjoint,True,0.0008333333333333334,0.0009166666666666666,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,0,0.003,target_same,True,0.0025,0.003,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,0,0.003,target_disjoint,True,0.0023333333333333335,0.0026666666666666666,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,0,0.005,target_same,True,0.004,0.005,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,0,0.005,target_disjoint,True,0.0036666666666666666,0.00425,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,0,0.01,target_same,True,0.008833333333333334,0.009916666666666667,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,0,0.01,target_disjoint,True,0.007666666666666666,0.008833333333333334,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,0,0.05,target_same,True,0.03883333333333333,0.04158333333333333,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,0,0.05,target_disjoint,True,0.03883333333333333,0.04158333333333333,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,0,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,0,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,0,0.0003,target_same,True,0.00016666666666666666,0.00025,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,0,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,0,0.001,target_same,True,0.0008333333333333334,0.0008333333333333334,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,0,0.001,target_disjoint,True,0.0006666666666666666,0.00075,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,0,0.003,target_same,True,0.0033333333333333335,0.003,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,0,0.003,target_disjoint,True,0.0036666666666666666,0.0033333333333333335,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,0,0.005,target_same,True,0.005166666666666667,0.005,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,0,0.005,target_disjoint,True,0.005166666666666667,0.005083333333333333,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,0,0.01,target_same,True,0.010333333333333333,0.01,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,0,0.01,target_disjoint,True,0.010666666666666666,0.010333333333333333,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,0,0.05,target_same,True,0.05466666666666667,0.05,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,0,0.05,target_disjoint,True,0.059833333333333336,0.05491666666666667,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,0,0.0001,target_same,False,0.0,0.0,1.0,10,10,0.975325
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,0,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.975325
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,0,0.0003,target_same,True,0.0003333333333333333,0.00025,1.0,10,10,0.98275
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,0,0.0003,target_disjoint,True,0.00016666666666666666,0.00016666666666666666,1.0,10,10,0.975325
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,0,0.001,target_same,True,0.001,0.001,1.0,10,10,0.999
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,0,0.001,target_disjoint,True,0.0006666666666666666,0.0008333333333333334,1.0,10,10,0.9961
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,0,0.003,target_same,True,0.0033333333333333335,0.003,1.0,10,10,0.99965
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,0,0.003,target_disjoint,True,0.0035,0.0031666666666666666,1.0,10,10,0.9997
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,0,0.005,target_same,True,0.005333333333333333,0.005,1.0,10,10,0.999875
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,0,0.005,target_disjoint,True,0.005333333333333333,0.005166666666666667,1.0,10,10,0.999875
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,0,0.01,target_same,True,0.010666666666666666,0.01,1.0,10,10,0.99995
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,0,0.01,target_disjoint,True,0.010833333333333334,0.010333333333333333,1.0,10,10,0.99995
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,0,0.05,target_same,True,0.059,0.05,1.0,10,10,0.99995
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,0,0.05,target_disjoint,True,0.06333333333333334,0.056666666666666664,1.0,10,10,0.99995
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,0,0.0001,target_same,True,0.00016666666666666666,8.333333333333333e-05,1.0,10,10,0.999925
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,0,0.0001,target_disjoint,False,0.0023333333333333335,0.0011666666666666668,1.0,10,10,0.99995
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,0,0.0003,target_same,True,0.0005,0.00025,1.0,10,10,0.99995
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,0,0.0003,target_disjoint,True,0.0023333333333333335,0.00125,1.0,10,10,0.99995
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,0,0.001,target_same,True,0.002,0.001,1.0,10,10,0.99995
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,0,0.001,target_disjoint,True,0.004166666666666667,0.0025833333333333333,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,0,0.003,target_same,True,0.0045,0.003,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,0,0.003,target_disjoint,True,0.005833333333333334,0.004416666666666667,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,0,0.005,target_same,True,0.006833333333333334,0.005,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,0,0.005,target_disjoint,True,0.011,0.008,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,0,0.01,target_same,True,0.013666666666666667,0.01,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,0,0.01,target_disjoint,True,0.018833333333333334,0.014416666666666666,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,0,0.05,target_same,True,0.060333333333333336,0.05,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,0,0.05,target_disjoint,True,0.071,0.06041666666666667,1.0,10,10,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,0,0.0001,target_same,False,0.0,0.0,1.0,5,5,0.9994
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,0,0.0001,target_disjoint,False,0.0,0.0,1.0,5,5,0.9994
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,0,0.0003,target_same,True,0.00016666666666666666,0.00025,1.0,5,5,0.99955
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,0,0.0003,target_disjoint,True,0.00016666666666666666,0.00016666666666666666,1.0,5,5,0.9994
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,0,0.001,target_same,True,0.001,0.001,1.0,5,5,0.9997
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,0,0.001,target_disjoint,True,0.0006666666666666666,0.0008333333333333334,1.0,5,5,0.9997
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,0,0.003,target_same,True,0.003833333333333333,0.003,1.0,5,5,0.9998
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,0,0.003,target_disjoint,True,0.005166666666666667,0.004083333333333333,1.0,5,5,0.9998
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,0,0.005,target_same,True,0.006166666666666667,0.005,1.0,5,5,0.9998
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,0,0.005,target_disjoint,True,0.008166666666666666,0.006583333333333333,1.0,5,5,0.9998
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,0,0.01,target_same,True,0.011833333333333333,0.01,1.0,5,5,0.9998
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,0,0.01,target_disjoint,True,0.0135,0.01175,1.0,5,5,0.9998
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,0,0.05,target_same,True,0.0555,0.04858333333333333,1.0,5,5,0.9998
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,0,0.05,target_disjoint,True,0.055,0.04833333333333333,1.0,5,5,0.9998
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,0,0.0001,target_same,True,0.00016666666666666666,8.333333333333333e-05,1.0,5,5,0.99975
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,0,0.0001,target_disjoint,False,0.00016666666666666666,8.333333333333333e-05,1.0,5,5,0.99975
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,0,0.0003,target_same,True,0.0003333333333333333,0.00025,1.0,5,5,0.99975
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,0,0.0003,target_disjoint,True,0.00016666666666666666,0.00016666666666666666,1.0,5,5,0.99975
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,0,0.001,target_same,True,0.001,0.001,1.0,5,5,0.99995
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,0,0.001,target_disjoint,True,0.001,0.001,1.0,5,5,0.99995
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,0,0.003,target_same,True,0.003833333333333333,0.003,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,0,0.003,target_disjoint,True,0.004333333333333333,0.0036666666666666666,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,0,0.005,target_same,True,0.005833333333333334,0.005,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,0,0.005,target_disjoint,True,0.006333333333333333,0.005666666666666667,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,0,0.01,target_same,True,0.01,0.009916666666666667,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,0,0.01,target_disjoint,True,0.010166666666666666,0.010083333333333333,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,0,0.05,target_same,True,0.0595,0.049916666666666665,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,0,0.05,target_disjoint,True,0.0645,0.05475,1.0,5,5,1.0
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,0.0001,target_same,True,0.0,8.333333333333333e-05,0.2,2,10,5e-05
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,0.0001,target_disjoint,False,0.0,0.0,0.2,2,10,5e-05
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,0.0003,target_same,True,0.0,0.00025,0.2,2,10,5e-05
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,0.2,2,10,5e-05
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,0.001,target_same,True,0.0,0.0006666666666666666,0.7,7,10,0.32815
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,0.001,target_disjoint,True,0.0,0.0005,0.7,7,10,0.252
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,0.003,target_same,True,0.001,0.0025833333333333333,1.0,10,10,0.9938
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,0.003,target_disjoint,True,0.0005,0.0011666666666666668,1.0,10,10,0.979875
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,0.005,target_same,True,0.0028333333333333335,0.0045,1.0,10,10,0.99715
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,0.005,target_disjoint,True,0.0011666666666666668,0.0030833333333333333,1.0,10,10,0.99395
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,0.01,target_same,True,0.009333333333333334,0.009833333333333333,1.0,10,10,0.99785
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,0.01,target_disjoint,True,0.009166666666666667,0.009583333333333333,1.0,10,10,0.997825
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,0.05,target_same,True,0.056,0.05,1.0,10,10,0.999825
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,0,0.05,target_disjoint,True,0.059333333333333335,0.05466666666666667,1.0,10,10,0.99985
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,0.0001,target_same,False,0.0,0.0,1.0,10,10,0.999575
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,0.0001,target_disjoint,False,0.0003333333333333333,0.00016666666666666666,1.0,10,10,0.9996
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,0.0003,target_same,True,0.0003333333333333333,0.00016666666666666666,1.0,10,10,0.999575
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,0.0003,target_disjoint,False,0.0003333333333333333,0.00016666666666666666,1.0,10,10,0.9996
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,0.001,target_same,True,0.0003333333333333333,0.00016666666666666666,1.0,10,10,0.999575
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,0.001,target_disjoint,False,0.0003333333333333333,0.00016666666666666666,1.0,10,10,0.9996
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,0.003,target_same,True,0.0003333333333333333,0.00016666666666666666,1.0,10,10,0.999575
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,0.003,target_disjoint,False,0.0003333333333333333,0.00016666666666666666,1.0,10,10,0.9996
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,0.005,target_same,True,0.005666666666666667,0.004666666666666667,1.0,10,10,0.999975
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,0.005,target_disjoint,True,0.007166666666666667,0.006,1.0,10,10,0.999975
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,0.01,target_same,True,0.007166666666666667,0.006,1.0,10,10,0.999975
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,0.01,target_disjoint,True,0.018666666666666668,0.014083333333333333,1.0,10,10,0.999975
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,0.05,target_same,True,0.06066666666666667,0.05,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,0,0.05,target_disjoint,True,0.06716666666666667,0.058583333333333334,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,0.0001,target_same,False,0.0,0.0,1.0,10,10,0.99895
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.99895
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,0.0003,target_same,True,0.00016666666666666666,0.00025,1.0,10,10,0.99895
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,0.0003,target_disjoint,False,0.0,0.0,1.0,10,10,0.99895
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,0.001,target_same,True,0.0005,0.0009166666666666666,1.0,10,10,0.999925
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,0.001,target_disjoint,True,0.0005,0.00075,1.0,10,10,0.99985
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,0.003,target_same,True,0.0021666666666666666,0.003,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,0.003,target_disjoint,True,0.0015,0.00225,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,0.005,target_same,True,0.004,0.005,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,0.005,target_disjoint,True,0.0036666666666666666,0.004333333333333333,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,0.01,target_same,True,0.0075,0.009916666666666667,1.0,10,10,0.999975
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,0.01,target_disjoint,True,0.005833333333333334,0.007916666666666667,1.0,10,10,0.999975
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,0.05,target_same,True,0.0405,0.049666666666666665,1.0,10,10,0.999975
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,0,0.05,target_disjoint,True,0.033166666666666664,0.04158333333333333,1.0,10,10,0.999975
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,0.0001,target_same,False,0.0,0.0,1.0,10,10,0.9995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.9995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,0.0003,target_same,False,0.0,0.0,1.0,10,10,0.9995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,0.0003,target_disjoint,False,0.0,0.0,1.0,10,10,0.9995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,0.001,target_same,True,0.0008333333333333334,0.00075,1.0,10,10,0.999925
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,0.001,target_disjoint,True,0.0008333333333333334,0.00075,1.0,10,10,0.999925
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,0.003,target_same,True,0.0025,0.002916666666666667,1.0,10,10,0.999975
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,0.003,target_disjoint,True,0.002,0.0025,1.0,10,10,0.999975
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,0.005,target_same,True,0.004833333333333334,0.005,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,0.005,target_disjoint,True,0.004166666666666667,0.004583333333333333,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,0.01,target_same,True,0.009833333333333333,0.009916666666666667,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,0.01,target_disjoint,True,0.009833333333333333,0.009916666666666667,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,0.05,target_same,True,0.050333333333333334,0.05,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,0,0.05,target_disjoint,True,0.0505,0.05025,1.0,10,10,1.0
+random split,none,current window only,0,0.0001,target_same,True,6.172077521293668e-05,9.259259259259259e-05,1.0,80,80,0.999875
+random split,none,current window only,0,0.0001,target_disjoint,True,6.172077521293668e-05,6.17283950617284e-05,1.0,80,80,0.9998125
+random split,none,current window only,0,0.0003,target_same,True,0.00012344155042587335,0.0002777777777777778,1.0,80,80,0.9998958333333333
+random split,none,current window only,0,0.0003,target_disjoint,True,6.172077521293668e-05,0.00015432098765432098,1.0,80,80,0.9998854166666666
+random split,none,current window only,0,0.001,target_same,True,0.0007406493025552401,0.0009876543209876543,1.0,80,80,0.9999583333333333
+random split,none,current window only,0,0.001,target_disjoint,True,0.0002468831008517467,0.0006172839506172839,1.0,80,80,0.9999583333333333
+random split,none,current window only,0,0.003,target_same,True,0.0024071102333045303,0.002993827160493827,1.0,80,80,0.9999895833333333
+random split,none,current window only,0,0.003,target_disjoint,True,0.0020367855820269103,0.0025,1.0,80,80,0.9999895833333333
+random split,none,current window only,0,0.005,target_same,True,0.00444389581533144,0.005,1.0,80,80,1.0
+random split,none,current window only,0,0.005,target_disjoint,True,0.003641525737563264,0.004290123456790124,1.0,80,80,0.9999895833333333
+random split,none,current window only,0,0.01,target_same,True,0.008394025428959388,0.01,1.0,80,80,1.0
+random split,none,current window only,0,0.01,target_disjoint,True,0.0076533761264041475,0.008796296296296297,1.0,80,80,1.0
+random split,none,current window only,0,0.05,target_same,True,0.04419207505246266,0.05,1.0,80,80,1.0
+random split,none,current window only,0,0.05,target_disjoint,True,0.04079743241575114,0.04533950617283951,1.0,80,80,1.0
+random split,none,current window plus causal history,0,0.0001,target_same,True,0.0,6.17283950617284e-05,1.0,80,80,0.99990625
+random split,none,current window plus causal history,0,0.0001,target_disjoint,True,0.0,3.08641975308642e-05,1.0,80,80,0.9998958333333333
+random split,none,current window plus causal history,0,0.0003,target_same,True,0.0002468831008517467,0.0002777777777777778,1.0,80,80,0.9999583333333333
+random split,none,current window plus causal history,0,0.0003,target_disjoint,True,6.172077521293668e-05,0.00015432098765432098,1.0,80,80,0.9999479166666667
+random split,none,current window plus causal history,0,0.001,target_same,True,0.0010492531786199235,0.0009876543209876543,1.0,80,80,0.9999895833333333
+random split,none,current window plus causal history,0,0.001,target_disjoint,True,0.0010492531786199235,0.0010185185185185184,1.0,80,80,0.9999895833333333
+random split,none,current window plus causal history,0,0.003,target_same,True,0.002839155659795087,0.002993827160493827,1.0,80,80,1.0
+random split,none,current window plus causal history,0,0.003,target_disjoint,True,0.002653993334156277,0.002808641975308642,1.0,80,80,1.0
+random split,none,current window plus causal history,0,0.005,target_same,True,0.00462905814097025,0.005,1.0,80,80,1.0
+random split,none,current window plus causal history,0,0.005,target_disjoint,True,0.004320454264905568,0.004629629629629629,1.0,80,80,1.0
+random split,none,current window plus causal history,0,0.01,target_same,True,0.009628440933218121,0.01,1.0,80,80,1.0
+random split,none,current window plus causal history,0,0.01,target_disjoint,True,0.0092581162819405,0.009598765432098765,1.0,80,80,1.0
+random split,none,current window plus causal history,0,0.05,target_same,True,0.052956425132699665,0.05,1.0,80,80,1.0
+random split,none,current window plus causal history,0,0.05,target_disjoint,True,0.05554869769164301,0.05274691358024691,1.0,80,80,1.0
+time-ordered split,none,current window only,0,0.0001,target_same,True,0.0001234567901234568,9.259259259259259e-05,1.0,80,80,0.99940625
+time-ordered split,none,current window only,0,0.0001,target_disjoint,True,6.17283950617284e-05,6.17283950617284e-05,1.0,80,80,0.9991875
+time-ordered split,none,current window only,0,0.0003,target_same,True,0.0002469135802469136,0.0002777777777777778,1.0,80,80,0.9998541666666667
+time-ordered split,none,current window only,0,0.0003,target_disjoint,True,0.00018518518518518518,0.0002160493827160494,1.0,80,80,0.9998541666666667
+time-ordered split,none,current window only,0,0.001,target_same,True,0.0010493827160493827,0.0009876543209876543,1.0,80,80,0.9999479166666667
+time-ordered split,none,current window only,0,0.001,target_disjoint,True,0.0011111111111111111,0.0010493827160493827,1.0,80,80,0.9999479166666667
+time-ordered split,none,current window only,0,0.003,target_same,True,0.0032098765432098763,0.002993827160493827,1.0,80,80,0.9999479166666667
+time-ordered split,none,current window only,0,0.003,target_disjoint,True,0.003271604938271605,0.003117283950617284,1.0,80,80,0.9999479166666667
+time-ordered split,none,current window only,0,0.005,target_same,True,0.005308641975308642,0.005,1.0,80,80,0.9999479166666667
+time-ordered split,none,current window only,0,0.005,target_disjoint,True,0.00537037037037037,0.005185185185185185,1.0,80,80,0.9999479166666667
+time-ordered split,none,current window only,0,0.01,target_same,True,0.010432098765432099,0.01,1.0,80,80,0.99996875
+time-ordered split,none,current window only,0,0.01,target_disjoint,True,0.010925925925925926,0.010462962962962962,1.0,80,80,0.99996875
+time-ordered split,none,current window only,0,0.05,target_same,True,0.053580246913580244,0.05,1.0,80,80,0.9999791666666666
+time-ordered split,none,current window only,0,0.05,target_disjoint,True,0.05654320987654321,0.05324074074074074,1.0,80,80,0.9999791666666666
+time-ordered split,none,current window plus causal history,0,0.0001,target_same,True,0.0,9.259259259259259e-05,1.0,80,80,0.9998125
+time-ordered split,none,current window plus causal history,0,0.0001,target_disjoint,True,0.0,3.08641975308642e-05,1.0,80,80,0.99978125
+time-ordered split,none,current window plus causal history,0,0.0003,target_same,True,6.17283950617284e-05,0.0002777777777777778,1.0,80,80,0.9998125
+time-ordered split,none,current window plus causal history,0,0.0003,target_disjoint,True,0.0,0.0001234567901234568,1.0,80,80,0.9998125
+time-ordered split,none,current window plus causal history,0,0.001,target_same,True,0.00030864197530864197,0.0009876543209876543,1.0,80,80,0.9999270833333334
+time-ordered split,none,current window plus causal history,0,0.001,target_disjoint,True,0.0001234567901234568,0.0005555555555555556,1.0,80,80,0.9998541666666667
+time-ordered split,none,current window plus causal history,0,0.003,target_same,True,0.0017901234567901235,0.002993827160493827,1.0,80,80,0.9999791666666666
+time-ordered split,none,current window plus causal history,0,0.003,target_disjoint,True,0.0011111111111111111,0.002037037037037037,1.0,80,80,0.9999791666666666
+time-ordered split,none,current window plus causal history,0,0.005,target_same,True,0.004629629629629629,0.005,1.0,80,80,1.0
+time-ordered split,none,current window plus causal history,0,0.005,target_disjoint,True,0.003765432098765432,0.004382716049382716,1.0,80,80,1.0
+time-ordered split,none,current window plus causal history,0,0.01,target_same,True,0.010987654320987654,0.00962962962962963,1.0,80,80,1.0
+time-ordered split,none,current window plus causal history,0,0.01,target_disjoint,True,0.016419753086419752,0.013209876543209877,1.0,80,80,1.0
+time-ordered split,none,current window plus causal history,0,0.05,target_same,True,0.057901234567901236,0.05,1.0,80,80,1.0
+time-ordered split,none,current window plus causal history,0,0.05,target_disjoint,True,0.06419753086419754,0.056419753086419756,1.0,80,80,1.0
+leave-one-device-out,Danmini_Doorbell,current window only,1,0.0001,target_same,False,0.0,0.0,1.0,10,10,0.99975
+leave-one-device-out,Danmini_Doorbell,current window only,1,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.99975
+leave-one-device-out,Danmini_Doorbell,current window only,1,0.0003,target_same,True,0.0003333333333333333,0.00025,1.0,10,10,0.999825
+leave-one-device-out,Danmini_Doorbell,current window only,1,0.0003,target_disjoint,True,0.00016666666666666666,0.00016666666666666666,1.0,10,10,0.99975
+leave-one-device-out,Danmini_Doorbell,current window only,1,0.001,target_same,True,0.001,0.0008333333333333334,1.0,10,10,0.9999
+leave-one-device-out,Danmini_Doorbell,current window only,1,0.001,target_disjoint,True,0.0025,0.00175,1.0,10,10,0.9999
+leave-one-device-out,Danmini_Doorbell,current window only,1,0.003,target_same,True,0.0036666666666666666,0.002916666666666667,1.0,10,10,0.99995
+leave-one-device-out,Danmini_Doorbell,current window only,1,0.003,target_disjoint,True,0.005166666666666667,0.004,1.0,10,10,0.99995
+leave-one-device-out,Danmini_Doorbell,current window only,1,0.005,target_same,True,0.005833333333333334,0.004916666666666666,1.0,10,10,0.99995
+leave-one-device-out,Danmini_Doorbell,current window only,1,0.005,target_disjoint,True,0.007333333333333333,0.006,1.0,10,10,0.99995
+leave-one-device-out,Danmini_Doorbell,current window only,1,0.01,target_same,True,0.0115,0.01,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window only,1,0.01,target_disjoint,True,0.012,0.010833333333333334,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window only,1,0.05,target_same,True,0.03766666666666667,0.036833333333333336,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window only,1,0.05,target_disjoint,True,0.03766666666666667,0.036833333333333336,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,1,0.0001,target_same,False,0.0,0.0,1.0,10,10,0.99995
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,1,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.99995
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,1,0.0003,target_same,True,0.0003333333333333333,0.00025,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,1,0.0003,target_disjoint,True,0.00016666666666666666,0.00016666666666666666,1.0,10,10,0.99995
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,1,0.001,target_same,True,0.0015,0.001,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,1,0.001,target_disjoint,True,0.004,0.0025,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,1,0.003,target_same,True,0.004666666666666667,0.003,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,1,0.003,target_disjoint,True,0.009666666666666667,0.006333333333333333,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,1,0.005,target_same,True,0.0075,0.005,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,1,0.005,target_disjoint,True,0.013,0.009,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,1,0.01,target_same,True,0.014833333333333334,0.01,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,1,0.01,target_disjoint,True,0.020666666666666667,0.015333333333333332,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,1,0.05,target_same,True,0.05333333333333334,0.0485,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,1,0.05,target_disjoint,True,0.059333333333333335,0.05441666666666667,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window only,1,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.99895
+leave-one-device-out,Ecobee_Thermostat,current window only,1,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.99895
+leave-one-device-out,Ecobee_Thermostat,current window only,1,0.0003,target_same,True,0.0,0.00025,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window only,1,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.99895
+leave-one-device-out,Ecobee_Thermostat,current window only,1,0.001,target_same,True,0.0003333333333333333,0.001,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window only,1,0.001,target_disjoint,True,0.00016666666666666666,0.0005833333333333334,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window only,1,0.003,target_same,True,0.0018333333333333333,0.003,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window only,1,0.003,target_disjoint,True,0.0011666666666666668,0.0020833333333333333,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window only,1,0.005,target_same,True,0.0033333333333333335,0.005,1.0,10,10,0.999975
+leave-one-device-out,Ecobee_Thermostat,current window only,1,0.005,target_disjoint,True,0.002,0.0035,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window only,1,0.01,target_same,True,0.008166666666666666,0.009333333333333334,1.0,10,10,0.999975
+leave-one-device-out,Ecobee_Thermostat,current window only,1,0.01,target_disjoint,True,0.0075,0.00875,1.0,10,10,0.999975
+leave-one-device-out,Ecobee_Thermostat,current window only,1,0.05,target_same,True,0.043833333333333335,0.049833333333333334,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window only,1,0.05,target_disjoint,True,0.036166666666666666,0.043083333333333335,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,1,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.99995
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,1,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.99995
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,1,0.0003,target_same,True,0.0,0.00025,1.0,10,10,0.99995
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,1,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.99995
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,1,0.001,target_same,True,0.0,0.001,1.0,10,10,0.999975
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,1,0.001,target_disjoint,True,0.0,0.0005,1.0,10,10,0.999975
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,1,0.003,target_same,True,0.0003333333333333333,0.003,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,1,0.003,target_disjoint,True,0.00016666666666666666,0.0015833333333333333,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,1,0.005,target_same,True,0.0005,0.005,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,1,0.005,target_disjoint,True,0.0003333333333333333,0.0026666666666666666,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,1,0.01,target_same,True,0.002,0.009916666666666667,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,1,0.01,target_disjoint,True,0.0005,0.00525,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,1,0.05,target_same,True,0.0435,0.05,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,1,0.05,target_disjoint,True,0.034,0.041416666666666664,1.0,10,10,1.0
+leave-one-device-out,Ennio_Doorbell,current window only,1,0.0001,target_same,False,0.0,0.0,1.0,5,5,0.99975
+leave-one-device-out,Ennio_Doorbell,current window only,1,0.0001,target_disjoint,False,0.0003333333333333333,0.00016666666666666666,1.0,5,5,0.99975
+leave-one-device-out,Ennio_Doorbell,current window only,1,0.0003,target_same,True,0.0003333333333333333,0.00016666666666666666,1.0,5,5,0.99975
+leave-one-device-out,Ennio_Doorbell,current window only,1,0.0003,target_disjoint,True,0.0006666666666666666,0.0004166666666666667,1.0,5,5,0.99975
+leave-one-device-out,Ennio_Doorbell,current window only,1,0.001,target_same,True,0.0015,0.001,1.0,5,5,0.99985
+leave-one-device-out,Ennio_Doorbell,current window only,1,0.001,target_disjoint,True,0.0021666666666666666,0.0015833333333333333,1.0,5,5,0.99985
+leave-one-device-out,Ennio_Doorbell,current window only,1,0.003,target_same,True,0.0035,0.003,1.0,5,5,0.9999
+leave-one-device-out,Ennio_Doorbell,current window only,1,0.003,target_disjoint,True,0.004,0.0035,1.0,5,5,0.9999
+leave-one-device-out,Ennio_Doorbell,current window only,1,0.005,target_same,True,0.005,0.005,1.0,5,5,0.9999
+leave-one-device-out,Ennio_Doorbell,current window only,1,0.005,target_disjoint,True,0.005,0.005,1.0,5,5,0.9999
+leave-one-device-out,Ennio_Doorbell,current window only,1,0.01,target_same,True,0.007833333333333333,0.01,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window only,1,0.01,target_disjoint,True,0.0065,0.00825,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window only,1,0.05,target_same,True,0.026333333333333334,0.04975,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window only,1,0.05,target_disjoint,True,0.016166666666666666,0.03308333333333333,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,1,0.0001,target_same,False,0.0,0.0,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,1,0.0001,target_disjoint,False,0.0,0.0,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,1,0.0003,target_same,True,0.00016666666666666666,0.00025,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,1,0.0003,target_disjoint,False,0.0,0.0,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,1,0.001,target_same,True,0.001,0.0008333333333333334,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,1,0.001,target_disjoint,True,0.0011666666666666668,0.0010833333333333333,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,1,0.003,target_same,True,0.003833333333333333,0.002916666666666667,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,1,0.003,target_disjoint,True,0.004833333333333334,0.003916666666666666,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,1,0.005,target_same,True,0.006,0.00475,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,1,0.005,target_disjoint,True,0.007,0.005916666666666666,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,1,0.01,target_same,True,0.012,0.0095,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,1,0.01,target_disjoint,True,0.017333333333333333,0.013666666666666667,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,1,0.05,target_same,True,0.06383333333333334,0.04816666666666667,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,1,0.05,target_disjoint,True,0.092,0.0705,1.0,5,5,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,1,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.9968
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,1,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.9968
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,1,0.0003,target_same,True,0.0,0.00025,1.0,10,10,0.996975
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,1,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.9968
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,1,0.001,target_same,True,0.0,0.001,1.0,10,10,0.99725
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,1,0.001,target_disjoint,True,0.0,0.0005,1.0,10,10,0.997125
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,1,0.003,target_same,True,0.001,0.003,1.0,10,10,0.99975
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,1,0.003,target_disjoint,True,0.0,0.0014166666666666668,1.0,10,10,0.9976
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,1,0.005,target_same,True,0.0036666666666666666,0.005,1.0,10,10,0.999925
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,1,0.005,target_disjoint,True,0.0003333333333333333,0.0026666666666666666,1.0,10,10,0.9997
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,1,0.01,target_same,True,0.008,0.01,1.0,10,10,0.999975
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,1,0.01,target_disjoint,True,0.0065,0.00825,1.0,10,10,0.99995
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,1,0.05,target_same,True,0.04883333333333333,0.05,1.0,10,10,0.999975
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,1,0.05,target_disjoint,True,0.04616666666666667,0.048,1.0,10,10,0.999975
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,1,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.999925
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,1,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.999925
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,1,0.0003,target_same,True,0.0,0.00025,1.0,10,10,0.999925
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,1,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.999925
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,1,0.001,target_same,True,0.0005,0.001,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,1,0.001,target_disjoint,True,0.0,0.0005,1.0,10,10,0.99995
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,1,0.003,target_same,True,0.001,0.002916666666666667,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,1,0.003,target_disjoint,True,0.001,0.00175,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,1,0.005,target_same,True,0.0015,0.004916666666666666,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,1,0.005,target_disjoint,True,0.001,0.002916666666666667,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,1,0.01,target_same,True,0.008333333333333333,0.01,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,1,0.01,target_disjoint,True,0.004833333333333334,0.007416666666666667,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,1,0.05,target_same,True,0.052333333333333336,0.05,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,1,0.05,target_disjoint,True,0.05433333333333333,0.05216666666666667,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,1,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.9924
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,1,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.9924
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,1,0.0003,target_same,True,0.00016666666666666666,0.00016666666666666666,1.0,10,10,0.999675
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,1,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.9924
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,1,0.001,target_same,True,0.001,0.001,1.0,10,10,0.99995
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,1,0.001,target_disjoint,True,0.001,0.001,1.0,10,10,0.99995
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,1,0.003,target_same,True,0.002,0.002916666666666667,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,1,0.003,target_disjoint,True,0.0018333333333333333,0.002416666666666667,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,1,0.005,target_same,True,0.004,0.005,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,1,0.005,target_disjoint,True,0.003,0.004,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,1,0.01,target_same,True,0.008833333333333334,0.009583333333333333,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,1,0.01,target_disjoint,True,0.008166666666666666,0.009,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,1,0.05,target_same,True,0.04766666666666667,0.0495,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,1,0.05,target_disjoint,True,0.04633333333333333,0.04816666666666667,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,1,0.0001,target_same,True,0.00016666666666666666,8.333333333333333e-05,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,1,0.0001,target_disjoint,False,0.00016666666666666666,8.333333333333333e-05,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,1,0.0003,target_same,True,0.0003333333333333333,0.00025,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,1,0.0003,target_disjoint,True,0.0003333333333333333,0.00025,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,1,0.001,target_same,True,0.0008333333333333334,0.001,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,1,0.001,target_disjoint,True,0.0008333333333333334,0.0009166666666666666,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,1,0.003,target_same,True,0.0025,0.003,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,1,0.003,target_disjoint,True,0.002,0.0025,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,1,0.005,target_same,True,0.0045,0.004833333333333334,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,1,0.005,target_disjoint,True,0.0045,0.00475,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,1,0.01,target_same,True,0.010333333333333333,0.009916666666666667,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,1,0.01,target_disjoint,True,0.010833333333333334,0.010416666666666666,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,1,0.05,target_same,True,0.055,0.05,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,1,0.05,target_disjoint,True,0.06316666666666666,0.05658333333333333,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,1,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.96455
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,1,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.96455
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,1,0.0003,target_same,True,0.0003333333333333333,0.00025,1.0,10,10,0.968275
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,1,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.96455
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,1,0.001,target_same,True,0.0011666666666666668,0.0009166666666666666,1.0,10,10,0.9993
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,1,0.001,target_disjoint,True,0.0011666666666666668,0.0010833333333333333,1.0,10,10,0.99935
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,1,0.003,target_same,True,0.0031666666666666666,0.003,1.0,10,10,0.9998
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,1,0.003,target_disjoint,True,0.0031666666666666666,0.0030833333333333333,1.0,10,10,0.9998
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,1,0.005,target_same,True,0.004666666666666667,0.005,1.0,10,10,0.9999
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,1,0.005,target_disjoint,True,0.0045,0.00475,1.0,10,10,0.9999
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,1,0.01,target_same,True,0.0085,0.01,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,1,0.01,target_disjoint,True,0.0075,0.00875,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,1,0.05,target_same,True,0.059,0.05,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,1,0.05,target_disjoint,True,0.0715,0.06075,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,1,0.0001,target_same,True,0.00016666666666666666,8.333333333333333e-05,1.0,10,10,0.99995
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,1,0.0001,target_disjoint,False,0.0011666666666666668,0.0005833333333333334,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,1,0.0003,target_same,True,0.0005,0.00025,1.0,10,10,0.99995
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,1,0.0003,target_disjoint,True,0.0011666666666666668,0.0006666666666666666,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,1,0.001,target_same,True,0.0018333333333333333,0.001,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,1,0.001,target_disjoint,True,0.004,0.0025,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,1,0.003,target_same,True,0.0045,0.003,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,1,0.003,target_disjoint,True,0.007333333333333333,0.005166666666666667,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,1,0.005,target_same,True,0.007166666666666667,0.005,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,1,0.005,target_disjoint,True,0.010333333333333333,0.007666666666666666,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,1,0.01,target_same,True,0.013166666666666667,0.009833333333333333,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,1,0.01,target_disjoint,True,0.016666666666666666,0.013333333333333334,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,1,0.05,target_same,True,0.059166666666666666,0.05,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,1,0.05,target_disjoint,True,0.07833333333333334,0.06416666666666666,1.0,10,10,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,1,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,5,5,0.99945
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,1,0.0001,target_disjoint,False,0.0,0.0,1.0,5,5,0.99945
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,1,0.0003,target_same,True,0.0,0.00025,1.0,5,5,0.99975
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,1,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,5,5,0.99945
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,1,0.001,target_same,True,0.0011666666666666668,0.001,1.0,5,5,0.99975
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,1,0.001,target_disjoint,True,0.0011666666666666668,0.0010833333333333333,1.0,5,5,0.99975
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,1,0.003,target_same,True,0.0036666666666666666,0.003,1.0,5,5,0.99975
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,1,0.003,target_disjoint,True,0.006833333333333334,0.004916666666666666,1.0,5,5,0.9998
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,1,0.005,target_same,True,0.006833333333333334,0.005,1.0,5,5,0.9998
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,1,0.005,target_disjoint,True,0.013,0.009,1.0,5,5,0.9999
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,1,0.01,target_same,True,0.014,0.01,1.0,5,5,0.9999
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,1,0.01,target_disjoint,True,0.016166666666666666,0.011916666666666667,1.0,5,5,0.9999
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,1,0.05,target_same,True,0.037333333333333336,0.03125,1.0,5,5,0.9999
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,1,0.05,target_disjoint,True,0.06116666666666667,0.05533333333333333,1.0,5,5,0.99995
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,1,0.0001,target_same,True,0.00016666666666666666,8.333333333333333e-05,1.0,5,5,0.9999
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,1,0.0001,target_disjoint,False,0.00016666666666666666,8.333333333333333e-05,1.0,5,5,0.9999
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,1,0.0003,target_same,True,0.00016666666666666666,0.00025,1.0,5,5,0.99995
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,1,0.0003,target_disjoint,True,0.00016666666666666666,0.00016666666666666666,1.0,5,5,0.9999
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,1,0.001,target_same,True,0.0008333333333333334,0.0009166666666666666,1.0,5,5,0.99995
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,1,0.001,target_disjoint,True,0.0008333333333333334,0.0009166666666666666,1.0,5,5,0.99995
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,1,0.003,target_same,True,0.0036666666666666666,0.003,1.0,5,5,0.99995
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,1,0.003,target_disjoint,True,0.007666666666666666,0.005333333333333333,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,1,0.005,target_same,True,0.007166666666666667,0.005,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,1,0.005,target_disjoint,True,0.010333333333333333,0.007666666666666666,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,1,0.01,target_same,True,0.012333333333333333,0.009916666666666667,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,1,0.01,target_disjoint,True,0.0155,0.01275,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,1,0.05,target_same,True,0.05616666666666666,0.04975,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,1,0.05,target_disjoint,True,0.06466666666666666,0.05725,1.0,5,5,1.0
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,0.0001,target_same,False,0.0,0.0,1.0,10,10,0.9736
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.9736
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,0.0003,target_same,True,0.00016666666666666666,0.00016666666666666666,1.0,10,10,0.9736
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,0.0003,target_disjoint,True,0.00016666666666666666,0.00016666666666666666,1.0,10,10,0.9736
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,0.001,target_same,True,0.0008333333333333334,0.0009166666666666666,1.0,10,10,0.99335
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,0.001,target_disjoint,True,0.0008333333333333334,0.0009166666666666666,1.0,10,10,0.99335
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,0.003,target_same,True,0.0015,0.003,1.0,10,10,0.997025
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,0.003,target_disjoint,True,0.0011666666666666668,0.0020833333333333333,1.0,10,10,0.994825
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,0.005,target_same,True,0.0025,0.004666666666666667,1.0,10,10,0.99865
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,0.005,target_disjoint,True,0.0015,0.003,1.0,10,10,0.997025
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,0.01,target_same,True,0.007,0.009666666666666667,1.0,10,10,0.99915
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,0.01,target_disjoint,True,0.004333333333333333,0.0069166666666666664,1.0,10,10,0.99905
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,0.05,target_same,True,0.057,0.05,1.0,10,10,0.999875
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,1,0.05,target_disjoint,True,0.06416666666666666,0.05708333333333333,1.0,10,10,0.9999
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,0.0001,target_same,False,0.0,0.0,1.0,10,10,0.99955
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,0.0001,target_disjoint,False,0.0003333333333333333,0.00016666666666666666,1.0,10,10,0.9996
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,0.0003,target_same,True,0.0003333333333333333,0.00025,1.0,10,10,0.9996
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,0.0003,target_disjoint,True,0.0003333333333333333,0.00025,1.0,10,10,0.9996
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,0.001,target_same,True,0.0003333333333333333,0.00025,1.0,10,10,0.9996
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,0.001,target_disjoint,True,0.0003333333333333333,0.00025,1.0,10,10,0.9996
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,0.003,target_same,True,0.0003333333333333333,0.00025,1.0,10,10,0.9996
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,0.003,target_disjoint,True,0.0045,0.00375,1.0,10,10,0.9996
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,0.005,target_same,True,0.005833333333333334,0.00475,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,0.005,target_disjoint,True,0.006833333333333334,0.005833333333333334,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,0.01,target_same,True,0.011,0.00875,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,0.01,target_disjoint,True,0.011,0.00875,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,0.05,target_same,True,0.058833333333333335,0.05,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,1,0.05,target_disjoint,True,0.06466666666666666,0.05733333333333333,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,0.0001,target_same,False,0.0,0.0,1.0,10,10,0.999375
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.999375
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,0.0003,target_same,True,0.00016666666666666666,0.00025,1.0,10,10,0.999375
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,0.0003,target_disjoint,False,0.0,0.0,1.0,10,10,0.999375
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,0.001,target_same,True,0.0006666666666666666,0.001,1.0,10,10,0.999925
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,0.001,target_disjoint,True,0.0003333333333333333,0.0006666666666666666,1.0,10,10,0.999925
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,0.003,target_same,True,0.0021666666666666666,0.0026666666666666666,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,0.003,target_disjoint,True,0.0016666666666666668,0.00225,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,0.005,target_same,True,0.003833333333333333,0.005,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,0.005,target_disjoint,True,0.0025,0.0033333333333333335,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,0.01,target_same,True,0.007833333333333333,0.009583333333333333,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,0.01,target_disjoint,True,0.006666666666666667,0.008333333333333333,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,0.05,target_same,True,0.04066666666666666,0.04975,1.0,10,10,0.999975
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,1,0.05,target_disjoint,True,0.036333333333333336,0.043083333333333335,1.0,10,10,0.999975
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.999925
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.999925
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,0.0003,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.999925
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.999925
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,0.001,target_same,True,0.001,0.001,1.0,10,10,0.999975
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,0.001,target_disjoint,True,0.001,0.001,1.0,10,10,0.999975
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,0.003,target_same,True,0.0023333333333333335,0.002916666666666667,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,0.003,target_disjoint,True,0.002,0.0025,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,0.005,target_same,True,0.004833333333333334,0.005,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,0.005,target_disjoint,True,0.004333333333333333,0.004583333333333333,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,0.01,target_same,True,0.010333333333333333,0.01,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,0.01,target_disjoint,True,0.010333333333333333,0.010166666666666666,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,0.05,target_same,True,0.05,0.049916666666666665,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,1,0.05,target_disjoint,True,0.04933333333333333,0.04958333333333333,1.0,10,10,1.0
+random split,none,current window only,1,0.0001,target_same,True,6.172458490216653e-05,9.259259259259259e-05,1.0,80,80,0.9988229166666667
+random split,none,current window only,1,0.0001,target_disjoint,True,6.172458490216653e-05,6.17283950617284e-05,1.0,80,80,0.9972291666666667
+random split,none,current window only,1,0.0003,target_same,True,0.00012344916980433306,0.0002777777777777778,1.0,80,80,0.9998645833333333
+random split,none,current window only,1,0.0003,target_disjoint,True,6.172458490216653e-05,0.00015432098765432098,1.0,80,80,0.9994479166666667
+random split,none,current window only,1,0.001,target_same,True,0.0008641441886303315,0.0009876543209876543,1.0,80,80,0.9999479166666667
+random split,none,current window only,1,0.001,target_disjoint,True,0.000802419603728165,0.0008950617283950618,1.0,80,80,0.9999270833333334
+random split,none,current window only,1,0.003,target_same,True,0.0028393309054996606,0.002993827160493827,1.0,80,80,0.99996875
+random split,none,current window only,1,0.003,target_disjoint,True,0.0024689833960866614,0.0027160493827160493,1.0,80,80,0.99996875
+random split,none,current window only,1,0.005,target_same,True,0.00481451762236899,0.005,1.0,80,80,0.9999895833333333
+random split,none,current window only,1,0.005,target_disjoint,True,0.004691068452564656,0.004814814814814815,1.0,80,80,0.9999895833333333
+random split,none,current window only,1,0.01,target_same,True,0.009505586074933646,0.01,1.0,80,80,1.0
+random split,none,current window only,1,0.01,target_disjoint,True,0.008271094376890315,0.009074074074074075,1.0,80,80,1.0
+random split,none,current window only,1,0.05,target_same,True,0.0462934386766249,0.05,1.0,80,80,1.0
+random split,none,current window only,1,0.05,target_disjoint,True,0.04160237022406024,0.04506172839506173,1.0,80,80,1.0
+random split,none,current window plus causal history,1,0.0001,target_same,True,0.00012344916980433306,9.259259259259259e-05,1.0,80,80,0.999875
+random split,none,current window plus causal history,1,0.0001,target_disjoint,True,6.172458490216653e-05,6.17283950617284e-05,1.0,80,80,0.999875
+random split,none,current window plus causal history,1,0.0003,target_same,True,0.0001851737547064996,0.0002777777777777778,1.0,80,80,1.0
+random split,none,current window plus causal history,1,0.0003,target_disjoint,True,0.00012344916980433306,0.00018518518518518518,1.0,80,80,0.99996875
+random split,none,current window plus causal history,1,0.001,target_same,True,0.001049317943336831,0.0009876543209876543,1.0,80,80,1.0
+random split,none,current window plus causal history,1,0.001,target_disjoint,True,0.0011110425282389975,0.0010493827160493827,1.0,80,80,1.0
+random split,none,current window plus causal history,1,0.003,target_same,True,0.0027158817356953274,0.002993827160493827,1.0,80,80,1.0
+random split,none,current window plus causal history,1,0.003,target_disjoint,True,0.0020369113017714956,0.0025,1.0,80,80,1.0
+random split,none,current window plus causal history,1,0.005,target_same,True,0.00462934386766249,0.005,1.0,80,80,1.0
+random split,none,current window plus causal history,1,0.005,target_disjoint,True,0.004258996358249491,0.004598765432098765,1.0,80,80,1.0
+random split,none,current window plus causal history,1,0.01,target_same,True,0.00962903524473798,0.01,1.0,80,80,1.0
+random split,none,current window plus causal history,1,0.01,target_disjoint,True,0.00888834022591198,0.009413580246913581,1.0,80,80,1.0
+random split,none,current window plus causal history,1,0.05,target_same,True,0.05376211344978705,0.05,1.0,80,80,1.0
+random split,none,current window plus causal history,1,0.05,target_disjoint,True,0.057403863959014874,0.05367283950617284,1.0,80,80,1.0
+time-ordered split,none,current window only,1,0.0001,target_same,True,6.17283950617284e-05,9.259259259259259e-05,1.0,80,80,0.9998125
+time-ordered split,none,current window only,1,0.0001,target_disjoint,True,6.17283950617284e-05,6.17283950617284e-05,1.0,80,80,0.99978125
+time-ordered split,none,current window only,1,0.0003,target_same,True,0.00030864197530864197,0.0002777777777777778,1.0,80,80,0.9999583333333333
+time-ordered split,none,current window only,1,0.0003,target_disjoint,True,0.00030864197530864197,0.0002777777777777778,1.0,80,80,0.9999583333333333
+time-ordered split,none,current window only,1,0.001,target_same,True,0.0011728395061728395,0.0009876543209876543,1.0,80,80,0.9999583333333333
+time-ordered split,none,current window only,1,0.001,target_disjoint,True,0.0013580246913580246,0.0011728395061728395,1.0,80,80,0.9999583333333333
+time-ordered split,none,current window only,1,0.003,target_same,True,0.0034567901234567903,0.002993827160493827,1.0,80,80,0.9999583333333333
+time-ordered split,none,current window only,1,0.003,target_disjoint,True,0.0044444444444444444,0.003703703703703704,1.0,80,80,0.9999583333333333
+time-ordered split,none,current window only,1,0.005,target_same,True,0.005925925925925926,0.005,1.0,80,80,0.9999583333333333
+time-ordered split,none,current window only,1,0.005,target_disjoint,True,0.007530864197530864,0.006265432098765432,1.0,80,80,0.9999583333333333
+time-ordered split,none,current window only,1,0.01,target_same,True,0.011296296296296296,0.01,1.0,80,80,0.9999583333333333
+time-ordered split,none,current window only,1,0.01,target_disjoint,True,0.012592592592592593,0.011296296296296296,1.0,80,80,0.9999583333333333
+time-ordered split,none,current window only,1,0.05,target_same,True,0.052222222222222225,0.049166666666666664,1.0,80,80,1.0
+time-ordered split,none,current window only,1,0.05,target_disjoint,True,0.05580246913580247,0.05277777777777778,1.0,80,80,1.0
+time-ordered split,none,current window plus causal history,1,0.0001,target_same,True,0.0,9.259259259259259e-05,1.0,80,80,0.9998125
+time-ordered split,none,current window plus causal history,1,0.0001,target_disjoint,True,0.0,3.08641975308642e-05,1.0,80,80,0.99978125
+time-ordered split,none,current window plus causal history,1,0.0003,target_same,True,0.0,0.0002777777777777778,1.0,80,80,0.999875
+time-ordered split,none,current window plus causal history,1,0.0003,target_disjoint,True,0.0,0.0001234567901234568,1.0,80,80,0.9998125
+time-ordered split,none,current window plus causal history,1,0.001,target_same,True,0.00030864197530864197,0.0009876543209876543,1.0,80,80,0.9999270833333334
+time-ordered split,none,current window plus causal history,1,0.001,target_disjoint,True,0.0,0.0004938271604938272,1.0,80,80,0.9998854166666666
+time-ordered split,none,current window plus causal history,1,0.003,target_same,True,0.0019753086419753087,0.002993827160493827,1.0,80,80,0.99996875
+time-ordered split,none,current window plus causal history,1,0.003,target_disjoint,True,0.0014814814814814814,0.0022222222222222222,1.0,80,80,0.99996875
+time-ordered split,none,current window plus causal history,1,0.005,target_same,True,0.004753086419753087,0.005,1.0,80,80,0.9999791666666666
+time-ordered split,none,current window plus causal history,1,0.005,target_disjoint,True,0.004074074074074074,0.004537037037037037,1.0,80,80,0.9999791666666666
+time-ordered split,none,current window plus causal history,1,0.01,target_same,True,0.011358024691358024,0.01,1.0,80,80,1.0
+time-ordered split,none,current window plus causal history,1,0.01,target_disjoint,True,0.013641975308641975,0.011820987654320988,1.0,80,80,1.0
+time-ordered split,none,current window plus causal history,1,0.05,target_same,True,0.055740740740740743,0.05,1.0,80,80,1.0
+time-ordered split,none,current window plus causal history,1,0.05,target_disjoint,True,0.060925925925925925,0.0554320987654321,1.0,80,80,1.0
+leave-one-device-out,Danmini_Doorbell,current window only,2,0.0001,target_same,False,0.0,0.0,1.0,10,10,0.999675
+leave-one-device-out,Danmini_Doorbell,current window only,2,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.999675
+leave-one-device-out,Danmini_Doorbell,current window only,2,0.0003,target_same,True,0.0003333333333333333,0.00025,1.0,10,10,0.999875
+leave-one-device-out,Danmini_Doorbell,current window only,2,0.0003,target_disjoint,True,0.00016666666666666666,0.00016666666666666666,1.0,10,10,0.999675
+leave-one-device-out,Danmini_Doorbell,current window only,2,0.001,target_same,True,0.001,0.0008333333333333334,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window only,2,0.001,target_disjoint,True,0.0013333333333333333,0.0011666666666666668,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window only,2,0.003,target_same,True,0.0028333333333333335,0.0025,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window only,2,0.003,target_disjoint,True,0.004333333333333333,0.0036666666666666666,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window only,2,0.005,target_same,True,0.005333333333333333,0.004916666666666666,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window only,2,0.005,target_disjoint,True,0.0065,0.00575,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window only,2,0.01,target_same,True,0.010166666666666666,0.009416666666666667,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window only,2,0.01,target_disjoint,True,0.011333333333333334,0.010666666666666666,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window only,2,0.05,target_same,True,0.04633333333333333,0.04541666666666667,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window only,2,0.05,target_disjoint,True,0.04633333333333333,0.04541666666666667,1.0,10,10,0.999975
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,2,0.0001,target_same,False,0.0,0.0,1.0,10,10,0.99995
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,2,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.99995
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,2,0.0003,target_same,True,0.00016666666666666666,0.00016666666666666666,1.0,10,10,0.99995
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,2,0.0003,target_disjoint,True,0.00016666666666666666,0.00016666666666666666,1.0,10,10,0.99995
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,2,0.001,target_same,True,0.0015,0.001,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,2,0.001,target_disjoint,True,0.004166666666666667,0.0025833333333333333,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,2,0.003,target_same,True,0.004666666666666667,0.003,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,2,0.003,target_disjoint,True,0.0085,0.00575,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,2,0.005,target_same,True,0.0075,0.005,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,2,0.005,target_disjoint,True,0.014833333333333334,0.009916666666666667,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,2,0.01,target_same,True,0.015,0.01,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,2,0.01,target_disjoint,True,0.021666666666666667,0.015416666666666667,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,2,0.05,target_same,True,0.05633333333333333,0.05,1.0,10,10,1.0
+leave-one-device-out,Danmini_Doorbell,current window plus causal history,2,0.05,target_disjoint,True,0.0625,0.05625,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window only,2,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.999875
+leave-one-device-out,Ecobee_Thermostat,current window only,2,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.999875
+leave-one-device-out,Ecobee_Thermostat,current window only,2,0.0003,target_same,True,0.0,0.00025,1.0,10,10,0.999875
+leave-one-device-out,Ecobee_Thermostat,current window only,2,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.999875
+leave-one-device-out,Ecobee_Thermostat,current window only,2,0.001,target_same,True,0.0003333333333333333,0.0009166666666666666,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window only,2,0.001,target_disjoint,True,0.0003333333333333333,0.0006666666666666666,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window only,2,0.003,target_same,True,0.002,0.003,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window only,2,0.003,target_disjoint,True,0.0011666666666666668,0.0020833333333333333,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window only,2,0.005,target_same,True,0.0045,0.005,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window only,2,0.005,target_disjoint,True,0.0036666666666666666,0.004333333333333333,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window only,2,0.01,target_same,True,0.008333333333333333,0.01,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window only,2,0.01,target_disjoint,True,0.006833333333333334,0.008416666666666666,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window only,2,0.05,target_same,True,0.051333333333333335,0.049833333333333334,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window only,2,0.05,target_disjoint,True,0.05216666666666667,0.051083333333333335,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,2,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,2,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,2,0.0003,target_same,True,0.0,0.00025,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,2,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.999925
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,2,0.001,target_same,True,0.0,0.001,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,2,0.001,target_disjoint,True,0.0,0.0005,1.0,10,10,0.99995
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,2,0.003,target_same,True,0.0003333333333333333,0.003,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,2,0.003,target_disjoint,True,0.0,0.0015,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,2,0.005,target_same,True,0.0006666666666666666,0.005,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,2,0.005,target_disjoint,True,0.0,0.00225,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,2,0.01,target_same,True,0.003,0.01,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,2,0.01,target_disjoint,True,0.0006666666666666666,0.005333333333333333,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,2,0.05,target_same,True,0.0475,0.049833333333333334,1.0,10,10,1.0
+leave-one-device-out,Ecobee_Thermostat,current window plus causal history,2,0.05,target_disjoint,True,0.041833333333333333,0.04591666666666667,1.0,10,10,1.0
+leave-one-device-out,Ennio_Doorbell,current window only,2,0.0001,target_same,False,0.0,0.0,1.0,5,5,0.99975
+leave-one-device-out,Ennio_Doorbell,current window only,2,0.0001,target_disjoint,False,0.0003333333333333333,0.00016666666666666666,1.0,5,5,0.99975
+leave-one-device-out,Ennio_Doorbell,current window only,2,0.0003,target_same,True,0.0003333333333333333,0.00016666666666666666,1.0,5,5,0.99975
+leave-one-device-out,Ennio_Doorbell,current window only,2,0.0003,target_disjoint,True,0.0006666666666666666,0.0004166666666666667,1.0,5,5,0.99975
+leave-one-device-out,Ennio_Doorbell,current window only,2,0.001,target_same,True,0.0011666666666666668,0.0009166666666666666,1.0,5,5,0.9999
+leave-one-device-out,Ennio_Doorbell,current window only,2,0.001,target_disjoint,True,0.0016666666666666668,0.0013333333333333333,1.0,5,5,0.9999
+leave-one-device-out,Ennio_Doorbell,current window only,2,0.003,target_same,True,0.0023333333333333335,0.003,1.0,5,5,0.9999
+leave-one-device-out,Ennio_Doorbell,current window only,2,0.003,target_disjoint,True,0.0023333333333333335,0.0026666666666666666,1.0,5,5,0.9999
+leave-one-device-out,Ennio_Doorbell,current window only,2,0.005,target_same,True,0.003833333333333333,0.005,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window only,2,0.005,target_disjoint,True,0.0026666666666666666,0.00375,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window only,2,0.01,target_same,True,0.007666666666666666,0.008583333333333333,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window only,2,0.01,target_disjoint,True,0.007666666666666666,0.008583333333333333,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window only,2,0.05,target_same,True,0.031,0.049416666666666664,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window only,2,0.05,target_disjoint,True,0.025333333333333333,0.03725,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,2,0.0001,target_same,False,0.0,0.0,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,2,0.0001,target_disjoint,False,0.0,0.0,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,2,0.0003,target_same,True,0.0,0.00016666666666666666,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,2,0.0003,target_disjoint,False,0.0,0.0,1.0,5,5,0.99995
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,2,0.001,target_same,True,0.0013333333333333333,0.0009166666666666666,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,2,0.001,target_disjoint,True,0.0015,0.0011666666666666668,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,2,0.003,target_same,True,0.0035,0.003,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,2,0.003,target_disjoint,True,0.004166666666666667,0.0035833333333333333,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,2,0.005,target_same,True,0.005833333333333334,0.005,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,2,0.005,target_disjoint,True,0.007666666666666666,0.006333333333333333,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,2,0.01,target_same,True,0.0125,0.01,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,2,0.01,target_disjoint,True,0.01633333333333333,0.013166666666666667,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,2,0.05,target_same,True,0.059333333333333335,0.049833333333333334,1.0,5,5,1.0
+leave-one-device-out,Ennio_Doorbell,current window plus causal history,2,0.05,target_disjoint,True,0.07216666666666667,0.06108333333333334,1.0,5,5,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,2,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.99665
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,2,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.99665
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,2,0.0003,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.99665
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,2,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.99665
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,2,0.001,target_same,True,0.0,0.001,1.0,10,10,0.997125
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,2,0.001,target_disjoint,True,0.0,0.0004166666666666667,1.0,10,10,0.99685
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,2,0.003,target_same,True,0.0003333333333333333,0.003,1.0,10,10,0.999725
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,2,0.003,target_disjoint,True,0.0,0.0015,1.0,10,10,0.9974
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,2,0.005,target_same,True,0.0025,0.005,1.0,10,10,0.9999
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,2,0.005,target_disjoint,True,0.0,0.0025,1.0,10,10,0.99905
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,2,0.01,target_same,True,0.006,0.01,1.0,10,10,0.999925
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,2,0.01,target_disjoint,True,0.003833333333333333,0.0069166666666666664,1.0,10,10,0.999925
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,2,0.05,target_same,True,0.0345,0.05,1.0,10,10,0.999975
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window only,2,0.05,target_disjoint,True,0.023333333333333334,0.03666666666666667,1.0,10,10,0.999975
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,2,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.999925
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,2,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.999925
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,2,0.0003,target_same,True,0.00016666666666666666,0.00025,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,2,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.999925
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,2,0.001,target_same,True,0.0011666666666666668,0.001,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,2,0.001,target_disjoint,True,0.0011666666666666668,0.0010833333333333333,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,2,0.003,target_same,True,0.0016666666666666668,0.003,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,2,0.003,target_disjoint,True,0.0011666666666666668,0.0016666666666666668,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,2,0.005,target_same,True,0.002,0.005,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,2,0.005,target_disjoint,True,0.0016666666666666668,0.0033333333333333335,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,2,0.01,target_same,True,0.008166666666666666,0.01,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,2,0.01,target_disjoint,True,0.0055,0.00775,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,2,0.05,target_same,True,0.056666666666666664,0.05,1.0,10,10,1.0
+leave-one-device-out,Philips_B120N10_Baby_Monitor,current window plus causal history,2,0.05,target_disjoint,True,0.06466666666666666,0.05733333333333333,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,2,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.98905
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,2,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.98905
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,2,0.0003,target_same,True,0.00016666666666666666,0.00025,1.0,10,10,0.999725
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,2,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.98905
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,2,0.001,target_same,True,0.0008333333333333334,0.001,1.0,10,10,0.99995
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,2,0.001,target_disjoint,True,0.0005,0.00075,1.0,10,10,0.99995
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,2,0.003,target_same,True,0.0026666666666666666,0.003,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,2,0.003,target_disjoint,True,0.0023333333333333335,0.0026666666666666666,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,2,0.005,target_same,True,0.004166666666666667,0.004583333333333333,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,2,0.005,target_disjoint,True,0.004166666666666667,0.004583333333333333,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,2,0.01,target_same,True,0.008833333333333334,0.009916666666666667,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,2,0.01,target_disjoint,True,0.0075,0.00875,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,2,0.05,target_same,True,0.050666666666666665,0.049916666666666665,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window only,2,0.05,target_disjoint,True,0.050833333333333335,0.050416666666666665,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,2,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,2,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,2,0.0003,target_same,True,0.00016666666666666666,0.00025,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,2,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,2,0.001,target_same,True,0.001,0.001,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,2,0.001,target_disjoint,True,0.0006666666666666666,0.0008333333333333334,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,2,0.003,target_same,True,0.003,0.003,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,2,0.003,target_disjoint,True,0.0026666666666666666,0.0028333333333333335,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,2,0.005,target_same,True,0.004833333333333334,0.005,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,2,0.005,target_disjoint,True,0.004666666666666667,0.004833333333333334,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,2,0.01,target_same,True,0.009833333333333333,0.009916666666666667,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,2,0.01,target_disjoint,True,0.009833333333333333,0.009916666666666667,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,2,0.05,target_same,True,0.05533333333333333,0.04933333333333333,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_737E_Security_Camera,current window plus causal history,2,0.05,target_disjoint,True,0.06483333333333334,0.057416666666666664,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,2,0.0001,target_same,True,0.00016666666666666666,8.333333333333333e-05,1.0,10,10,0.9673
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,2,0.0001,target_disjoint,False,0.00016666666666666666,8.333333333333333e-05,1.0,10,10,0.971825
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,2,0.0003,target_same,True,0.00016666666666666666,0.00016666666666666666,1.0,10,10,0.971825
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,2,0.0003,target_disjoint,True,0.00016666666666666666,0.00016666666666666666,1.0,10,10,0.971825
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,2,0.001,target_same,True,0.001,0.001,1.0,10,10,0.99905
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,2,0.001,target_disjoint,True,0.0006666666666666666,0.0008333333333333334,1.0,10,10,0.9955
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,2,0.003,target_same,True,0.0031666666666666666,0.003,1.0,10,10,0.9997
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,2,0.003,target_disjoint,True,0.0026666666666666666,0.00275,1.0,10,10,0.99955
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,2,0.005,target_same,True,0.004666666666666667,0.005,1.0,10,10,0.999875
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,2,0.005,target_disjoint,True,0.004,0.0045,1.0,10,10,0.99985
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,2,0.01,target_same,True,0.009333333333333334,0.01,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,2,0.01,target_disjoint,True,0.0085,0.00925,1.0,10,10,0.999925
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,2,0.05,target_same,True,0.05683333333333333,0.05,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window only,2,0.05,target_disjoint,True,0.06316666666666666,0.05658333333333333,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,2,0.0001,target_same,True,0.00016666666666666666,8.333333333333333e-05,1.0,10,10,0.99995
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,2,0.0001,target_disjoint,False,0.0021666666666666666,0.0010833333333333333,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,2,0.0003,target_same,True,0.0005,0.00025,1.0,10,10,0.99995
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,2,0.0003,target_disjoint,True,0.0021666666666666666,0.0011666666666666668,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,2,0.001,target_same,True,0.002,0.001,1.0,10,10,0.999975
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,2,0.001,target_disjoint,True,0.004166666666666667,0.0025833333333333333,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,2,0.003,target_same,True,0.004833333333333334,0.003,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,2,0.003,target_disjoint,True,0.008166666666666666,0.005583333333333333,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,2,0.005,target_same,True,0.0075,0.005,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,2,0.005,target_disjoint,True,0.010166666666666666,0.007583333333333333,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,2,0.01,target_same,True,0.013,0.01,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,2,0.01,target_disjoint,True,0.017166666666666667,0.013583333333333333,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,2,0.05,target_same,True,0.058166666666666665,0.05,1.0,10,10,1.0
+leave-one-device-out,Provision_PT_838_Security_Camera,current window plus causal history,2,0.05,target_disjoint,True,0.0715,0.06075,1.0,10,10,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,2,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,5,5,0.99955
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,2,0.0001,target_disjoint,False,0.0,0.0,1.0,5,5,0.99955
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,2,0.0003,target_same,True,0.00016666666666666666,0.00025,1.0,5,5,0.99955
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,2,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,5,5,0.99955
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,2,0.001,target_same,True,0.0006666666666666666,0.0009166666666666666,1.0,5,5,0.9998
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,2,0.001,target_disjoint,True,0.0005,0.00075,1.0,5,5,0.99975
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,2,0.003,target_same,True,0.0035,0.003,1.0,5,5,0.9998
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,2,0.003,target_disjoint,True,0.0045,0.00375,1.0,5,5,0.99985
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,2,0.005,target_same,True,0.006166666666666667,0.005,1.0,5,5,0.99985
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,2,0.005,target_disjoint,True,0.007166666666666667,0.005833333333333334,1.0,5,5,0.99985
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,2,0.01,target_same,True,0.008833333333333334,0.006666666666666667,1.0,5,5,0.99985
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,2,0.01,target_disjoint,True,0.015166666666666667,0.0125,1.0,5,5,0.99985
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,2,0.05,target_same,True,0.0565,0.049916666666666665,1.0,5,5,0.9999
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window only,2,0.05,target_disjoint,True,0.059666666666666666,0.05316666666666667,1.0,5,5,0.99995
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,2,0.0001,target_same,True,0.00016666666666666666,8.333333333333333e-05,1.0,5,5,0.99975
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,2,0.0001,target_disjoint,False,0.00016666666666666666,8.333333333333333e-05,1.0,5,5,0.99975
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,2,0.0003,target_same,True,0.00016666666666666666,0.00016666666666666666,1.0,5,5,0.99975
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,2,0.0003,target_disjoint,True,0.00016666666666666666,0.00016666666666666666,1.0,5,5,0.99975
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,2,0.001,target_same,True,0.0011666666666666668,0.001,1.0,5,5,0.99985
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,2,0.001,target_disjoint,True,0.0013333333333333333,0.0011666666666666668,1.0,5,5,0.99985
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,2,0.003,target_same,True,0.003833333333333333,0.003,1.0,5,5,0.99995
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,2,0.003,target_disjoint,True,0.005666666666666667,0.004333333333333333,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,2,0.005,target_same,True,0.0065,0.005,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,2,0.005,target_disjoint,True,0.009166666666666667,0.007083333333333333,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,2,0.01,target_same,True,0.012333333333333333,0.01,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,2,0.01,target_disjoint,True,0.015833333333333335,0.012916666666666667,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,2,0.05,target_same,True,0.0545,0.04841666666666666,1.0,5,5,1.0
+leave-one-device-out,Samsung_SNH_1011_N_Webcam,current window plus causal history,2,0.05,target_disjoint,True,0.05316666666666667,0.04775,1.0,5,5,1.0
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,0.0001,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.949825
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.949825
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,0.0003,target_same,True,0.0,8.333333333333333e-05,1.0,10,10,0.949825
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,0.0003,target_disjoint,True,0.0,8.333333333333333e-05,1.0,10,10,0.949825
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,0.001,target_same,True,0.0005,0.0008333333333333334,1.0,10,10,0.9833
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,0.001,target_disjoint,True,0.00016666666666666666,0.0005833333333333334,1.0,10,10,0.981075
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,0.003,target_same,True,0.0015,0.003,1.0,10,10,0.9951
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,0.003,target_disjoint,True,0.001,0.0015833333333333333,1.0,10,10,0.991275
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,0.005,target_same,True,0.003,0.004833333333333334,1.0,10,10,0.99655
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,0.005,target_disjoint,True,0.0015,0.00325,1.0,10,10,0.996275
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,0.01,target_same,True,0.0085,0.00975,1.0,10,10,0.997475
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,0.01,target_disjoint,True,0.0035,0.005416666666666667,1.0,10,10,0.99685
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,0.05,target_same,True,0.051333333333333335,0.05,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window only,2,0.05,target_disjoint,True,0.052,0.051,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,0.0001,target_same,False,0.0,0.0,1.0,10,10,0.999625
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.999625
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,0.0003,target_same,False,0.0,0.0,1.0,10,10,0.999625
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,0.0003,target_disjoint,False,0.0,0.0,1.0,10,10,0.999625
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,0.001,target_same,False,0.0,0.0,1.0,10,10,0.999625
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,0.001,target_disjoint,False,0.0,0.0,1.0,10,10,0.999625
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,0.003,target_same,False,0.0,0.0,1.0,10,10,0.999625
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,0.003,target_disjoint,True,0.004666666666666667,0.003833333333333333,1.0,10,10,0.999625
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,0.005,target_same,True,0.006166666666666667,0.005,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,0.005,target_disjoint,True,0.006666666666666667,0.005833333333333334,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,0.01,target_same,True,0.0085,0.008166666666666666,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,0.01,target_disjoint,True,0.0085,0.008166666666666666,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,0.05,target_same,True,0.058,0.05,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1002_WHT_Security_Camera,current window plus causal history,2,0.05,target_disjoint,True,0.06366666666666666,0.05683333333333333,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,0.0001,target_same,False,0.0,0.0,1.0,10,10,0.9987
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.9987
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,0.0003,target_same,True,0.00016666666666666666,0.00025,1.0,10,10,0.9987
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,0.0003,target_disjoint,False,0.0,0.0,1.0,10,10,0.9987
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,0.001,target_same,True,0.0003333333333333333,0.0009166666666666666,1.0,10,10,0.9999
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,0.001,target_disjoint,True,0.0003333333333333333,0.0006666666666666666,1.0,10,10,0.999875
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,0.003,target_same,True,0.0023333333333333335,0.002916666666666667,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,0.003,target_disjoint,True,0.0013333333333333333,0.0021666666666666666,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,0.005,target_same,True,0.004,0.005,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,0.005,target_disjoint,True,0.0033333333333333335,0.004,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,0.01,target_same,True,0.008,0.009916666666666667,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,0.01,target_disjoint,True,0.005833333333333334,0.007916666666666667,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,0.05,target_same,True,0.04016666666666667,0.05,1.0,10,10,0.999975
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window only,2,0.05,target_disjoint,True,0.03233333333333333,0.041166666666666664,1.0,10,10,0.999975
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,0.0001,target_same,False,0.0,0.0,1.0,10,10,0.999925
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,0.0001,target_disjoint,False,0.0,0.0,1.0,10,10,0.999925
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,0.0003,target_same,False,0.0,0.0,1.0,10,10,0.999925
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,0.0003,target_disjoint,False,0.0,0.0,1.0,10,10,0.999925
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,0.001,target_same,True,0.001,0.001,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,0.001,target_disjoint,True,0.001,0.001,1.0,10,10,0.99995
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,0.003,target_same,True,0.0026666666666666666,0.003,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,0.003,target_disjoint,True,0.002,0.002416666666666667,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,0.005,target_same,True,0.004666666666666667,0.004916666666666666,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,0.005,target_disjoint,True,0.004,0.004416666666666667,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,0.01,target_same,True,0.010333333333333333,0.01,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,0.01,target_disjoint,True,0.010666666666666666,0.010333333333333333,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,0.05,target_same,True,0.05,0.049916666666666665,1.0,10,10,1.0
+leave-one-device-out,SimpleHome_XCS7_1003_WHT_Security_Camera,current window plus causal history,2,0.05,target_disjoint,True,0.05,0.049916666666666665,1.0,10,10,1.0
+random split,none,current window only,2,0.0001,target_same,True,0.00012344916980433306,9.259259259259259e-05,1.0,80,80,0.9992395833333333
+random split,none,current window only,2,0.0001,target_disjoint,True,0.00012344916980433306,9.259259259259259e-05,1.0,80,80,0.9992395833333333
+random split,none,current window only,2,0.0003,target_same,True,0.0002468983396086661,0.0002777777777777778,1.0,80,80,0.9998541666666667
+random split,none,current window only,2,0.0003,target_disjoint,True,0.00012344916980433306,0.00018518518518518518,1.0,80,80,0.9998229166666667
+random split,none,current window only,2,0.001,target_same,True,0.0008641441886303315,0.0009876543209876543,1.0,80,80,0.9999583333333333
+random split,none,current window only,2,0.001,target_disjoint,True,0.0005555212641194987,0.0007716049382716049,1.0,80,80,0.9999479166666667
+random split,none,current window only,2,0.003,target_same,True,0.002592432565890994,0.002993827160493827,1.0,80,80,0.99996875
+random split,none,current window only,2,0.003,target_disjoint,True,0.002407258811184495,0.002685185185185185,1.0,80,80,0.99996875
+random split,none,current window only,2,0.005,target_same,True,0.00444417011295599,0.004969135802469136,1.0,80,80,0.9999791666666666
+random split,none,current window only,2,0.005,target_disjoint,True,0.004135547188445158,0.004537037037037037,1.0,80,80,0.9999791666666666
+random split,none,current window only,2,0.01,target_same,True,0.009567310659835813,0.01,1.0,80,80,1.0
+random split,none,current window only,2,0.01,target_disjoint,True,0.00907351398061848,0.009475308641975308,1.0,80,80,0.9999895833333333
+random split,none,current window only,2,0.05,target_same,True,0.0472193074501574,0.05,1.0,80,80,1.0
+random split,none,current window only,2,0.05,target_disjoint,True,0.04505894697858157,0.04734567901234568,1.0,80,80,1.0
+random split,none,current window plus causal history,2,0.0001,target_same,True,0.00012344916980433306,9.259259259259259e-05,1.0,80,80,0.9999166666666667
+random split,none,current window plus causal history,2,0.0001,target_disjoint,True,0.00012344916980433306,9.259259259259259e-05,1.0,80,80,0.9999166666666667
+random split,none,current window plus causal history,2,0.0003,target_same,True,0.0002468983396086661,0.0002469135802469136,1.0,80,80,0.9999791666666666
+random split,none,current window plus causal history,2,0.0003,target_disjoint,True,0.0002468983396086661,0.0002469135802469136,1.0,80,80,0.9999791666666666
+random split,none,current window plus causal history,2,0.001,target_same,True,0.0013579408678476637,0.0009876543209876543,1.0,80,80,1.0
+random split,none,current window plus causal history,2,0.001,target_disjoint,True,0.0015431146225541633,0.0012654320987654322,1.0,80,80,1.0
+random split,none,current window plus causal history,2,0.003,target_same,True,0.0028393309054996606,0.002993827160493827,1.0,80,80,1.0
+random split,none,current window plus causal history,2,0.003,target_disjoint,True,0.002777606320597494,0.0028703703703703703,1.0,80,80,1.0
+random split,none,current window plus causal history,2,0.005,target_same,True,0.004937966792173323,0.004969135802469136,1.0,80,80,1.0
+random split,none,current window plus causal history,2,0.005,target_disjoint,True,0.004691068452564656,0.004814814814814815,1.0,80,80,1.0
+random split,none,current window plus causal history,2,0.01,target_same,True,0.010308005678661811,0.01,1.0,80,80,1.0
+random split,none,current window plus causal history,2,0.01,target_disjoint,True,0.01049317943336831,0.01021604938271605,1.0,80,80,1.0
+random split,none,current window plus causal history,2,0.05,target_same,True,0.05481143139312388,0.05,1.0,80,80,1.0
+random split,none,current window plus causal history,2,0.05,target_disjoint,True,0.059934571940003706,0.05493827160493827,1.0,80,80,1.0
+time-ordered split,none,current window only,2,0.0001,target_same,True,0.00018518518518518518,9.259259259259259e-05,1.0,80,80,0.9994375
+time-ordered split,none,current window only,2,0.0001,target_disjoint,True,0.00018518518518518518,0.0001234567901234568,1.0,80,80,0.9997291666666667
+time-ordered split,none,current window only,2,0.0003,target_same,True,0.00030864197530864197,0.0002777777777777778,1.0,80,80,0.99990625
+time-ordered split,none,current window only,2,0.0003,target_disjoint,True,0.00018518518518518518,0.0002160493827160494,1.0,80,80,0.9998541666666667
+time-ordered split,none,current window only,2,0.001,target_same,True,0.0012345679012345679,0.0009567901234567902,1.0,80,80,0.99990625
+time-ordered split,none,current window only,2,0.001,target_disjoint,True,0.0015432098765432098,0.0012654320987654322,1.0,80,80,0.9999375
+time-ordered split,none,current window only,2,0.003,target_same,True,0.0033950617283950617,0.002993827160493827,1.0,80,80,0.9999479166666667
+time-ordered split,none,current window only,2,0.003,target_disjoint,True,0.003765432098765432,0.0033641975308641974,1.0,80,80,0.9999479166666667
+time-ordered split,none,current window only,2,0.005,target_same,True,0.005493827160493827,0.005,1.0,80,80,0.9999583333333333
+time-ordered split,none,current window only,2,0.005,target_disjoint,True,0.005925925925925926,0.005462962962962963,1.0,80,80,0.99996875
+time-ordered split,none,current window only,2,0.01,target_same,True,0.010925925925925926,0.01,1.0,80,80,0.99996875
+time-ordered split,none,current window only,2,0.01,target_disjoint,True,0.012407407407407407,0.011203703703703704,1.0,80,80,0.9999791666666666
+time-ordered split,none,current window only,2,0.05,target_same,True,0.05407407407407407,0.05,1.0,80,80,1.0
+time-ordered split,none,current window only,2,0.05,target_disjoint,True,0.05925925925925926,0.05462962962962963,1.0,80,80,1.0
+time-ordered split,none,current window plus causal history,2,0.0001,target_same,True,0.0,9.259259259259259e-05,1.0,80,80,0.9998645833333333
+time-ordered split,none,current window plus causal history,2,0.0001,target_disjoint,True,0.0,3.08641975308642e-05,1.0,80,80,0.9998125
+time-ordered split,none,current window plus causal history,2,0.0003,target_same,True,0.0,0.0002777777777777778,1.0,80,80,0.9999375
+time-ordered split,none,current window plus causal history,2,0.0003,target_disjoint,True,0.0,0.0001234567901234568,1.0,80,80,0.9999166666666667
+time-ordered split,none,current window plus causal history,2,0.001,target_same,True,0.00037037037037037035,0.0009876543209876543,1.0,80,80,0.99996875
+time-ordered split,none,current window plus causal history,2,0.001,target_disjoint,True,6.17283950617284e-05,0.0005246913580246914,1.0,80,80,0.9999583333333333
+time-ordered split,none,current window plus causal history,2,0.003,target_same,True,0.0019135802469135803,0.002993827160493827,1.0,80,80,0.9999791666666666
+time-ordered split,none,current window plus causal history,2,0.003,target_disjoint,True,0.0016049382716049382,0.002283950617283951,1.0,80,80,0.9999791666666666
+time-ordered split,none,current window plus causal history,2,0.005,target_same,True,0.004135802469135802,0.005,1.0,80,80,0.9999791666666666
+time-ordered split,none,current window plus causal history,2,0.005,target_disjoint,True,0.002654320987654321,0.0038271604938271606,1.0,80,80,0.9999791666666666
+time-ordered split,none,current window plus causal history,2,0.01,target_same,True,0.010555555555555556,0.01,1.0,80,80,0.9999791666666666
+time-ordered split,none,current window plus causal history,2,0.01,target_disjoint,True,0.011419753086419753,0.010709876543209877,1.0,80,80,1.0
+time-ordered split,none,current window plus causal history,2,0.05,target_same,True,0.054691358024691356,0.05,1.0,80,80,1.0
+time-ordered split,none,current window plus causal history,2,0.05,target_disjoint,True,0.057839506172839505,0.053919753086419754,1.0,80,80,1.0
